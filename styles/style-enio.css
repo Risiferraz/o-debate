@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.pagina {
+    background-image: url("https://therealgoodlife.com/wp-content/uploads/2016/06/solid_kraft_paper-e1545844788572-500x334.jpeg");
+    background-size: cover;
+    max-width: 800px;
+    font-family: "Palatino Lynotype";
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    font-style: italic;
+    color: rgb(54, 49, 34);
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "Palatino Linotype";
+    font-size: 5rem;
+    color: rgb(54, 49, 34);
+    text-shadow: 2px 2px 2px rgb(78, 95, 95);
+    line-height: 1em;
+    margin-left: 10%;
+}
+
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 2px;
+    box-shadow: 2px 2px 2px rgb(78, 95, 95);
+    margin: 2% auto;
+    width: 90%;
+}
+
+h4 {
+    /* título */
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
+}
+
+#quadro1 {
+    display: flex;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+#perfil {
+    width: 281%;
+}
+
+#caixa-texto-quadro1 {
+    padding: 2% 4% 0 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#quadro2 {
+    display: grid;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro2 {
+    padding: 2% 4% 0 3%;
+    text-align: justify;
+    text-justify: inter-word;
+    grid-area: 1;
+    position: relative;
+}
+
+#imgQ2 {
+    width: 100%;
+}
+
+#quadro3 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+#imgQ3 {
+    width: 100%;
+}
+#caixa-texto-quadro3 {
+    padding: 2% 4% 1% 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#quadro4 {
+    display: flex;
+    position: relative;
+    padding-top: 2%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-texto-quadro4 {
+    padding: 0 2% 0 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#imgQ4 {
+    width: 230%;
+}
+#quadro5 {
+    display: grid;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-texto-quadro5 {
+    position: relative;
+    padding: 2% 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#quadro6 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro6 {
+    padding: 1% 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#img1 {
+    width: 100%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#quadro7 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-texto-quadro7 {
+    padding: 1% 0 0 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#imgQ7 {
+    width: 100%;
+}
+#quadro8 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-texto-quadro8 {
+    padding: 2% 4% 0 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#quadro9 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#caixa-texto-quadro9 {
+    padding: 2% 4% 2% 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+p {
+    margin:1% 0 1% 13%;
+}
+#imgQ9 {
+    width: 100%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+#imgQ10 {
+    width: 100%;
+}
+#quadro10 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: grid;
+}
+#caixa-texto-quadro10 {
+    padding: 2% 4% 0 3%;
+    text-align: justify;
+    text-justify: inter-word;
+    grid-area: 1;
+    position: relative;
+    line-height: 2.3rem;
+}
+#quadro11 {
+    margin: 2%;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+.opcoes {
+    width: 90%;
+    margin: 4% auto;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+.opcao {
+    width: 100%;
+}
+
+.opcao-nula {
+    width: 100%;
+    opacity: 20%;
+}
+
+h3 {
+    font-size: 2.0rem;
+    color: brown;
+    display: inline;
+}
+
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltip1 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 19%;
+    bottom: 19%;
+    padding: 0.5em;
+    width: 320px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip1 {
+    visibility: visible;
+}
+
+.tooltip .tooltip2 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 28%;
+    bottom: 30%;
+    padding: 0.5em;
+    width: 340px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip2 {
+    visibility: visible;
+}
+
+.tooltip .tooltip3 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 54%;
+    bottom: 5%;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip3 {
+    visibility: visible;
+}
+
+.tooltip .tooltip4 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 7%;
+    bottom: 47%;
+    padding: 0.5em;
+    width: 300px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip4 {
+    visibility: visible;
+}
+
+.tooltip .tooltip5 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 44%;
+    bottom: 63%;
+    padding: 0.5em;
+    width: 300px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip5 {
+    visibility: visible;
+}
+
+.tooltip .tooltip6 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 25%;
+    bottom: 49%;
+    padding: 0.5em;
+    width: 300px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip6 {
+    visibility: visible;
+}
+
+.tooltip .tooltip7 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 19%;
+    bottom: 42%;
+    padding: 0.5em;
+    width: 390px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip7 {
+    visibility: visible;
+}
+
+.tooltip .tooltip8 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 34%;
+    bottom: 53%;
+    padding: 0.5em;
+    width: 310px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip8 {
+    visibility: visible;
+}
+
+.tooltip .tooltip9 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 27%;
+    bottom: 24%;
+    padding: 0.5em;
+    width: 300px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip9 {
+    visibility: visible;
+}
+
+.tooltip .tooltip10 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 16%;
+    bottom: 28%;
+    padding: 0.5em;
+    width: 325px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip10 {
+    visibility: visible;
+}
+
+.tooltip .tooltip11 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 12%;
+    bottom: -106%;
+    padding: 0.5em;
+    width: 340px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip11 {
+    visibility: visible;
+}
