@@ -2,44 +2,16 @@
 @media (max-width:428px) {
     .pagina {
         font-size: 1.6rem;
-        line-height: 2rem;
+        line-height: 1.9rem;
         max-width: 412px;
     }
 
+    #perfil {
+        width: 121px;
+    }
     #caixa-texto-quadro1 {
         padding: 2% 3%;
-        line-height: 1.8rem;
     }
-
-    h4 {
-        margin-top: 1%;
-    }
-    
-    hr {
-        margin: 1% 0% 3% 0%;
-        border-width: 2px;
-    }
-
-    #perfil {
-        width: 132px;
-        height: 300px;
-        object-fit: cover;
-        object-position: -58px;
-    }
-
-    #caixa-texto-quadro2 {
-        padding: 2% 4% 0 3%;
-        width: 100%;
-    }
-
-    #quadro3 {
-        position: relative;
-    }
-
-    #caixa-texto-quadro4 {
-        line-height: 2rem;
-    }
-
     h2 {
         font-size: 2.9rem;
         margin: 0 0 4% 7%;
@@ -50,8 +22,44 @@
     }
 
     h4 {
-        font-size: 1.4rem;
-        margin-bottom: 1%;
+        font-size: 1.5rem;
+    }
+    
+    hr {
+        margin: 1% 0% 3% 0%;
+        border-width: 2px;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 2% 5% 0 5%;
+    }
+    #P1 {
+        padding: 1% 16%;
+    }
+    #caixa-texto-quadro3 {
+        padding: 0 4% 0 1%;
+        line-height: 1.9rem;
+    }
+    #imgQ3 {
+        width: 575%;
+    }
+    #quadro4 {
+        grid-template-columns: 68% 32%;
+    }
+    #caixa-texto-quadro4A {
+        line-height: 2rem;
+    }
+    #caixa-texto-quadro4B {
+        line-height: 2rem;
+        text-align: start;
+    }
+    #imgQ4 {
+        width: 150%;
+        bottom: 0;
+        position: absolute;
+    }
+    #caixa-texto-quadro5A {
+        line-height: 2rem;
     }
 
     .tooltip .tooltip1 {
@@ -102,7 +110,6 @@
         width: 250px;
     }
 }
-
 /* ________________________________________&&&&&&&&&&&&___________________________________ */
 /* determina telas com largura de 376 a 390px */
 @media (max-width:390px) {
@@ -166,7 +173,6 @@
         margin: 0 0 4% 9%;
     }
 }
-
 /* ________________________________________&&&&&&&&&&&&___________________________________ */
 /* determina telas com largura até 375px */
 @media (max-width:375px) {
@@ -233,7 +239,6 @@
         width: 250px;
     }
 }
-
 /* ________________________________________&&&&&&&&&&&&___________________________________ */
 /* determina telas com largura até 360px */
 @media (max-width:360px) {
@@ -293,31 +298,31 @@
     }
 
     h4 {
-        font-size: 2.4rem;
-        margin-bottom: 4%;
-        margin-left: 2%;
+        text-align: center;
     }
 
     hr {
-        margin-bottom: 8%;
-        border-width: 3px;
+        margin-bottom: 3%;
+        box-shadow: 3px 3px 3px rgb(78, 95, 95);
     }
 
     #perfil {
         width: 330%;
+        object-position: -50px;
     }
 
     #caixa-texto-quadro1 {
-        padding: 5% 4%;
-        line-height: 2.5rem;
+        padding: 1% 4%;
     }
 
     #quadro2 {
         height: 100vh;
+        display: table-cell;
+        vertical-align: middle;
     }
 
     #caixa-texto-quadro2 {
-        padding: 2% 4% 0 4%;
+        padding: 0 5%;
         line-height: 2.4rem;
     }
 
@@ -332,39 +337,54 @@
         margin-bottom: auto;
     }
 
-    #quadro4 {
-        height: 100vh;
+    #imgQ3 {
+        width: 433%;
     }
 
-    #caixa-texto-quadro4 {
-        line-height: 2.7rem;
+    #quadro4 {
+        height: 100vh;
+        grid-template-columns: 72% 28%;
+        grid-template-rows: 55vh 45vh;
+    }
+    #caixa-texto-quadro4B {
+        padding: 0% 0 0 6%;
+        text-align: start;
     }
     #imgQ4 {
         position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 112%;
     }
     #quadro5 {
         height: 100vh;
-        display: flex;
+        grid-template-columns: 28% 72%;
+        grid-template-rows: 63vh 37vh;
     }
-
-    #caixa-texto-quadro5 {
+    #caixa-texto-quadro5A {
+        padding: 1% 6% 0 4%;
+        line-height: 2.9rem;
+    }
+    #caixa-texto-quadro5B {
+        grid-area: 2 / 1 / span 1 / span 2;
         padding: 0 4%;
         line-height: 2.9rem;
+        text-align: justify;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     #quadro6 {
         height: 100vh;
-        display: flex;
-        height: 100vh;
+        grid-template-columns: 19% 60% 21%;
     }
-
-    #caixa-texto-quadro6 {
-        padding: 0 4%;
-        line-height: 2.9rem;
-        margin-top: auto;
-        margin-bottom: auto;
+    #caixa-texto-quadro6A {
+        padding: 1% 5% 0 0;
+        line-height: 2.3rem;
+    }
+    #caixa-texto-quadro6B {
+        padding: 1% 2% 0 5%;
+        line-height: 2.3rem;
     }
 
     #imgQ6 {
@@ -455,7 +475,7 @@
 
     #caixa-texto-quadro2 {
         line-height: 2.3rem;
-        padding: 1% 4% 1% 3%;
+        padding: 0 4% 1% 3%;
     }
 
     #quadro7 {
@@ -517,16 +537,28 @@
         line-height: 2.4rem;
         max-width: 667px;
     }
-    #caixa-texto-quadro1 {
-        padding: 4% 3%;
-    }
-    hr {
-        margin-bottom: 6%;
-    }
-    #quadro2 {
-        padding: 1% 4%;
+    h3 {
+           font-size: 1.9rem;
     }
 
+    #perfil {
+        width: 282%;
+        object-fit: cover;
+    }
+    
+    #caixa-texto-quadro1 {
+        padding: 1% 4%;
+    } 
+    h4 {
+        font-size: 2.5rem;
+    }
+    #caixa-texto-quadro2 {
+        line-height: 2.1rem;
+        padding: 0 4% 1% 4%;
+    }
+    #P1{
+        padding: 5px 0;
+    }
     #caixa-texto-quadro3 {
         line-height: 2.3rem;
         padding: 0 3% 0 4%;
@@ -537,57 +569,6 @@
         line-height: 2.5rem;
     }
 
-    #quadro7 {
-        padding: 0 2%;
-    }
-
-    h3 {
-        font-size: 1.9rem;
-    }
-
-    h4 {
-        font-size: 2.2rem;
-        margin-bottom: 3%;
-        margin-left: 2%;
-    }
-
-    #perfil {
-        width: 282%;
-        object-fit: cover;
-    }
-
-    #caixa-texto-quadro1 {
-        padding: 5% 3%;
-        line-height: 2.4rem;
-    }
-
-    #caixa-texto-quadro2 {
-        padding: 2% 3% 0 3%;
-        line-height: 2.1rem;
-    }
-
-    #texto-perfil3 {
-        padding: 4% 2% 0 4%;
-        line-height: 2.2rem;
-    }
-
-    #img1 {
-        width: 100%;
-        padding-top: 2%;
-    }
-
-    #img2 {
-        grid-area: 2 / 1 / span 1 / span 1;
-        position: absolute;
-        bottom: 0;
-    }
-
-    #img3 {
-        position: absolute;
-        margin: 0;
-        bottom: 0;
-        left: 0;
-    }
 
     .opcoes {
         height: 100vh;
@@ -648,17 +629,31 @@
         line-height: 2.4rem;
         max-width: 640px;
     }
+    #perfil {
+        width: 330%;
+    }
     #caixa-texto-quadro1 {
-        padding: 3%;
+        line-height: 2.1rem;
+    }
+    h4 {
+        margin-top: 1%;
+        font-size: 2.4rem;
     }
     hr {
-        margin-bottom: 4%;
+        margin-bottom: 3%;
     }
-    #quadro2 {
-        padding: 1% 4%;
+    #caixa-texto-quadro2 {
+        line-height: 2.1rem;
+        padding: 0px 2% 1% 3%;
+    }
+    #P1 {
+        padding: 4px 0;
     }
     #caixa-texto-quadro3 {
         line-height: 2.1rem;
+    }
+    #imgQ3 {
+        width: 518%;
     }
     #caixa-texto-quadro4 {
         line-height: 2.2rem;
