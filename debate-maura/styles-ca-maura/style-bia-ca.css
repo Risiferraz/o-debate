@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.pagina {
+    background-image: url("../imagens-maura/pano-de-fundo.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
+    max-width: 800px;
+    font-family: "Palatino Lynotype";
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    font-style: italic;
+    color: rgb(54, 49, 34);
+    margin: 0 auto;
+}
+
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 3px;
+    box-shadow: 3px 3px 3px rgb(78, 95, 95);
+    margin: 2% auto 1% auto;
+    width: 100%;
+}
+
+h4 {
+    /* título */
+    font-size: 2.9rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
+}
+
+#quadro1 {
+    display: flex;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+#perfil {
+    width: 254%;
+}
+
+P {
+    padding: 0 21% 0 15%;
+}
+
+#caixa-texto-quadro1 {
+    padding: 2% 4% 0 2%;
+    line-height: 2.6rem;
+    text-align: justify;
+}
+
+#quadro2 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+}
+
+#caixa-texto-quadro2 {
+    padding: 1% 2% 0 4%;
+    text-align: justify;
+}
+
+#imgQ2 {
+    width: 327%;
+    margin-right: 13px;
+}
+
+#quadro3 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro3A {
+    position: relative;
+    padding: 1% 4%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro3B {
+    width: 100px;
+    position: absolute;
+    top: 192px;
+    left: 15px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro3C {
+    width: 105px;
+    position: absolute;
+    top: 192px;
+    left: 147px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro3D {
+    width: 87px;
+    position: absolute;
+    top: 192px;
+    left: 288px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro3E {
+    width: 107px;
+    position: absolute;
+    top: 192px;
+    left: 412px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro3F {
+    width: 106px;
+    position: absolute;
+    top: 192px;
+    left: 546px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro3G {
+    width: 100px;
+    position: absolute;
+    top: 201px;
+    left: 679px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#imgQ3A {
+    width: 100%;
+}
+
+#imgQ3B {
+    display: none;
+}
+
+#quadro4 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 36% 64%;
+}
+
+#caixa-texto-quadro4A {
+    grid-area: 1 / 1 / span 1 / span 2;
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro4B {
+    grid-area: 2 / 2 / span 1 / span 1;
+    padding: 0 5% 0 2%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro4C {
+    grid-area: 3 / 2 / span 1 / span 1;
+    padding: 0 5% 0 6%;
+    text-align: end;
+}
+
+#imgQ4 {
+    grid-area: 2 / 1 / span 2 / span 1;
+    width: 109%;
+    position: absolute;
+    bottom: 0;
+}
+
+#quadro5 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#caixa-texto-quadro5A {
+    grid-area: 1 / 2 / span 1 / span 1;
+    padding: 1% 5% 0 3%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro5B {
+    grid-area: 2 / 2 / span 1 / span 1;
+    padding: 0 5% 0 3%;
+    text-align: justify;
+}
+
+#imgQ5 {
+    grid-area: 2 / 1 / span 1 / span 1;
+    width: 87%;
+    position: absolute;
+    bottom: 0;
+    left: 23px;
+}
+
+#quadro6 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 71% 29%;
+}
+
+#caixa-texto-quadro6A {
+    grid-area: 1 / 1 / span 1 / span 1;
+    padding: 1% 1% 0 5%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro6B {
+    grid-area: 2 / 1 / span 1 / span 1;
+    padding: 1% 4% 0 5%;
+    text-align: justify;
+}
+
+#imgQ6 {
+    grid-area: 1 / 2 / span 2 / span 1;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#quadro7 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro7 {
+    padding: 1% 4%;
+    text-align: justify;
+}
+
+#imgQ7 {
+    width: 100%;
+}
+
+#quadro8 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro8 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#citacao {
+    padding: 0 11%;
+}
+
+#quadro9 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+#caixa-texto-quadro9A {
+    grid-area: 1 / 2 / span 1 / span 1;
+    padding: 0 5% 0 4%;
+    text-align: justify;
+    line-height: 2.7rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#caixa-texto-quadro9B {
+    grid-area: 2 / 1 / span 1 / span 2;
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#imgQ9 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    width: 100%;
+}
+
+#quadro10 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro10 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#quadro11 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro11B {
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro11C {
+    width: 105px;
+    position: absolute;
+    top: 57px;
+    left: 147px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro11D {
+    width: 88px;
+    position: absolute;
+    top: 7px;
+    left: 288px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro11E {
+    width: 80px;
+    position: absolute;
+    top: 18px;
+    left: 425px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro11F {
+    width: 112px;
+    position: absolute;
+    top: 8px;
+    left: 543px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#caixa-texto-quadro11G {
+    width: 100px;
+    position: absolute;
+    top: 19px;
+    left: 679px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#imgQ11A {
+    width: 100%;
+}
+
+#imgQ11B {
+    display: none;
+}
+
+#quadro12 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    margin: 2%;
+}
+
+h2 {
+    font-family: "Palatino Linotype";
+    font-size: 5rem;
+    color: rgb(54, 49, 34);
+    text-shadow: 2px 2px 2px rgb(78, 95, 95);
+    line-height: 1em;
+    text-align: center;
+    margin: 2% auto;
+}
+
+#fonte {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    text-align: end;
+    padding: 1% 4%;
+}
+
+td {
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.opcao {
+    width: 100%;
+}
+
+.opcao-link {
+    width: 100%;
+}
+
+#tela-final {
+    display: none;
+    scroll-snap-align: start;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#mensagem-final-ca {
+    width: 100%;
+}
+
+#link {
+    margin: auto;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 2.0rem;
+    color: brown;
+    display: inline;
+}
+
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltip1 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 8%;
+    bottom: 26%;
+    padding: 0.5em;
+    width: 360px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip1 {
+    visibility: visible;
+}
+
+.tooltip .tooltip2 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 43%;
+    bottom: 6%;
+    padding: 0.5em;
+    width: 426px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip2 {
+    visibility: visible;
+}
+
+.tooltip .tooltip3 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 62%;
+    bottom: 34%;
+    padding: 0.5em;
+    width: 285px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip3 {
+    visibility: visible;
+}
+
+.tooltip .tooltip4 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 41%;
+    bottom: 39%;
+    padding: 0.5em;
+    width: 350px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip4 {
+    visibility: visible;
+}
+
+.tooltip .tooltip5 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 30%;
+    bottom: 9%;
+    padding: 0.5em;
+    width: 318px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip5 {
+    visibility: visible;
+}
+
+.tooltip .tooltip6 {
+    z-index: 4;
+    visibility: hidden;
+    position: absolute;
+    left: 57%;
+    bottom: 56%;
+    padding: 0.5em;
+    width: 300px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip6 {
+    visibility: visible;
+}
+
+.tooltip .tooltip7 {
+    z-index: 4;
+    visibility: hidden;
+    position: absolute;
+    left: 37%;
+    bottom: 29%;
+    padding: 0.5em;
+    width: 360px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip7 {
+    visibility: visible;
+}
+
+.tooltip .tooltip8 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    right: 5%;
+    bottom: 114%;
+    padding: 0.5em;
+    width: 723px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip8 {
+    visibility: visible;
+}
+
+.tooltip .tooltip9 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute; /*posiciona o tooltip em relação ao elemento pai (td) que deve estar com position: relative*/
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em;
+    width: 225px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip9 {
+    visibility: visible;
+}

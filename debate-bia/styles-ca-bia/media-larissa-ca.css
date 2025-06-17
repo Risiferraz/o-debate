@@ -1,0 +1,2176 @@
+/* determina telas com largura entre 391 a 428 px */
+@media (max-width:428px) {
+
+    .pagina {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        max-width: 412px;
+    }
+
+    #perfil {
+        object-fit: cover;
+        object-position: -92px;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 1% 3%;
+    }
+
+    h4 {
+        font-size: 1.9rem;
+    }
+
+    hr {
+        margin: 1% auto 3% auto;
+    }
+
+    #quadro2 {
+        grid-template-columns: 66% 34%;
+    }
+
+    #caixa-texto-quadro2A {
+        padding: 1% 4% 0 6%;
+    }
+
+    #caixa-texto-quadro2B {
+        grid-area: 2 / 1 / span 1 / span 2;
+        padding: 0 4%;
+    }
+
+    #imgQ2 {
+        grid-area: 1 / 2 / span 1 / span 1;
+        width: 118%;
+        object-position: -13px;
+    }
+
+    #quadro3 {
+        margin-left: 4%;
+    }
+
+    #caixa-texto-quadro3A {
+        grid-area: 1 / 1 / span 1 / span 1;
+    }
+
+    #caixa-texto-quadro3B {
+        grid-area: 2 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 0;
+    }
+
+    #imgQ3 {
+        grid-area: 1 / 2 / span 1 / span 1;
+        width: 93%;
+        right: 0;
+    }
+
+    #quadro4 {
+        grid-template-columns: 25% 50% 25%;
+        padding-top: 2%;
+    }
+
+    #caixa-texto-quadro4A {
+        padding: 1% 3% 0 3%;
+    }
+
+    #caixa-texto-quadro4B {
+        grid-area: 2 / 1 / span 1 / span 3;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro4C {
+        padding: 1% 4%;
+    }
+
+    #imgQ4A {
+        grid-area: 1 / 1 / span 1 / span 1;
+        width: 100%;
+    }
+
+    #imgQ4B {
+        grid-area: 1 / 3 / span 1 / span 1;
+    }
+
+    #caixa-texto-quadro5A {
+        grid-area: 2 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+        line-height: 1.8rem;
+    }
+
+    #caixa-texto-quadro5B {
+        grid-area: 3 / 1 / span 1 / span 2;
+    }
+
+    #imgQ5 {
+        grid-area: 1 / 1 / span 1 / span 2;
+    }
+
+    #quadro6 {
+        grid-template-rows: 113px 130px;
+        grid-template-columns: 30% 42% 28%;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 0 5% 0 2%;
+    }
+
+    #imgQ6A {
+        width: 122%;
+        left: -5px;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 0% 0 6%;
+    }
+
+    #imgQ6B {
+        width: 153%;
+        right: -49px;
+    }
+
+    #imgQ6C {
+        width: 100%;
+    }
+
+    #quadro8 {
+        grid-template-columns: 23% 54% 23%;
+        grid-template-rows: 200px 78px 186px;
+    }
+
+    #caixa-texto-quadro8A {
+        padding: 1% 5% 0 1%;
+    }
+
+    #caixa-texto-quadro8B {
+        grid-area: 2 / 1 / span 1 / span 3;
+        padding: 1% 4% 0 4%;
+    }
+
+    #imgQ8A {
+        width: 157%;
+        object-fit: cover;
+        object-position: -47px;
+        bottom: 14px;
+    }
+
+    #imgQ8B {
+        width: 130%;
+        right: -27px;
+        bottom: 10px;
+    }
+
+    #quadro9 {
+        grid-template-columns: 35% 65%;
+        grid-auto-rows: 170px 135px;
+    }
+
+    #caixa-texto-quadro9A {
+        grid-area: 1 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro9B {
+        grid-area: 2 / 2 / span 1 / span 1;
+        padding: 1% 4% 0 4%;
+    }
+
+    #imgQ9 {
+        grid-area: 2 / 1 / span 1 / span 1;
+        object-position: 0 24px;
+        width: 105%;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 1% 4%;
+    }
+
+    #quadro11 {
+        grid-template-columns: 19% 81%;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    #caixa-texto-quadro11A {
+        line-height: 1.8rem;
+    }
+
+    #caixa-texto-quadro11B {
+        padding: 1% 5% 0 4%;
+        line-height: 1.8rem;
+    }
+
+    #caixa-texto-quadro11C {
+        padding: 1% 5% 0 1%;
+        line-height: 1.8rem;
+    }
+
+    #caixa-texto-quadro11D {
+        padding: 1% 5% 0 2%;
+        line-height: 1.8rem;
+    }
+
+    #imgQ11A {
+        display: none;
+    }
+
+    #imgQ11B {
+        grid-area: 2 / 1 / span 3 / span 1;
+        width: 94%;
+        position: absolute;
+        display: block;
+        bottom: -36px;
+    }
+
+    #fonte {
+        height: 3vh;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+        margin: 0 0 4% 10%;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .tooltip .tooltip1 {
+        left: -2%;
+        bottom: -587%;
+        width: 287px;
+    }
+
+    .tooltip .tooltip2 {
+        left: -172%;
+        bottom: -889%;
+        width: 285px;
+    }
+
+    .tooltip .tooltip3 {
+        left: -124%;
+        bottom: -682%;
+        width: 300px;
+    }
+
+    .tooltip .tooltip4 {
+        left: -396%;
+        bottom: 151%;
+        width: 241px;
+    }
+
+    .tooltip .tooltip5 {
+        left: -75%;
+        bottom: -692%;
+        width: 275px;
+    }
+
+    .tooltip .tooltip6 {
+        left: -212%;
+        bottom: 147%;
+        width: 310px;
+    }
+
+    .tooltip .tooltip7 {
+        left: -1%;
+        bottom: -687%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip8 {
+        left: -270%;
+        bottom: -590%;
+        width: 340px;
+    }
+
+    .tooltip .tooltip9 {
+        left: -103%;
+        bottom: -595%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip10 {
+        left: -107%;
+        bottom: -885%;
+        width: 385px;
+    }
+
+    .tooltip .tooltip11 {
+        left: -328%;
+        bottom: -590%;
+        width: 320px;
+    }
+
+    .tooltip .tooltip12 {
+        left: -360%;
+        bottom: 140%;
+        width: 320px;
+    }
+
+    .tooltip .tooltip13 {
+        left: -216%;
+        bottom: 150%;
+        width: 300px;
+    }
+
+    .tooltip .tooltip14 {
+        right: 7%;
+        bottom: 180%;
+        width: 375px;
+    }
+    
+    .tooltip .tooltip15 {
+        top: 120%;
+        width: 125px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura de 376 a 390px */
+@media (max-width:390px) {
+
+    .pagina {
+        line-height: 1.9rem;
+        max-width: 384px;
+    }
+
+    #perfil {
+        width: 310%;
+        object-position: -123px;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    #caixa-texto-quadro2A {
+        padding: 1% 6% 0 6%;
+        text-align: start;
+        z-index: 2;
+    }
+
+    #imgQ2 {
+        grid-area: 1 / 1 / span 1 / span 2;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        object-position: 2px 6px;
+    }
+
+    #quadro3 {
+        grid-template-columns: 73% 27%;
+    }
+
+    #imgQ3 {
+        object-position: 10px 8px;
+        width: 147%;
+    }
+
+    #quadro4 {
+        grid-template-columns: 24% 52% 24%;
+    }
+
+    #caixa-texto-quadro4A {
+        grid-area: 2 / 1 / span 1 / span 3;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro4B {
+        grid-area: 3 / 1 / span 1 / span 3;
+        padding: 0 4%;
+    }
+
+    #caixa-texto-quadro4C {
+        grid-area: 4 / 1 / span 1 / span 3;
+        padding: 0 4%;
+    }
+
+    #imgQ4A {
+        width: 150%;
+        object-position: 0 45px;
+    }
+
+    #imgQ4B {
+        width: 155%;
+        object-position: 0 56px;
+        right: 0;
+    }
+
+    #imgQ4C {
+        grid-area: 1 / 2 / span 1 / span 1;
+        display: block;
+        width: 75%;
+        margin: auto;
+    }
+
+    #quadro6 {
+        grid-template-rows: 113px 145px;
+        grid-template-columns: 27% 43% 30%;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 0 5% 0 1%;
+    }
+
+    #caixa-texto-quadro6C {
+        padding: 0 6% 0 11%;
+    }
+
+    #imgQ6A {
+        width: 152%;
+        left: -38px;
+    }
+
+    #imgQ6B {
+        width: 169%;
+        right: -45px;
+    }
+
+    #imgQ6C {
+        width: 150%;
+        left: -22px;
+    }
+
+    #quadro7 {
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 134px 115px 115px 135px;
+    }
+
+    #imgQ7 {
+        width: 100%;
+        opacity: 1;
+        object-position: 0;
+    }
+
+    #quadro8 {
+        grid-template-columns: 23% 54% 23%;
+        grid-template-rows: 230px 80px 214px;
+    }
+
+    #quadro9 {
+        grid-auto-rows: 176px 154px;
+    }
+
+    #imgQ9 {
+        object-position: 0 0;
+    }
+
+    #imgQ11B {
+        bottom: -10px;
+        height: 103%;
+    }
+
+    #fonte {
+        height: 3vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: -4%;
+        bottom: -557%;
+    }
+
+    .tooltip .tooltip2 {
+        left: -172%;
+        bottom: -831%;
+    }
+
+    .tooltip .tooltip3 {
+        left: -195%;
+        bottom: -740%;
+        width: 275px;
+    }
+
+    .tooltip .tooltip4 {
+        left: -140%;
+        bottom: -280%;
+    }
+
+    .tooltip .tooltip5 {
+        left: -427%;
+        bottom: -646%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -114%;
+        bottom: -566%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -7%;
+        bottom: -654%;
+    }
+
+    .tooltip .tooltip8 {
+        left: -145%;
+        bottom: -109px;
+    }
+
+    .tooltip .tooltip9 {
+        left: -58%;
+        bottom: -556%;
+    }
+
+    .tooltip .tooltip10 {
+        left: -245%;
+        bottom: -929%;
+        width: 355px;
+    }
+
+    .tooltip .tooltip11 {
+        left: -323%;
+        bottom: -557%;
+    }
+
+    .tooltip .tooltip12 {
+        left: -343%;
+        bottom: -287%;
+    }
+
+    .tooltip .tooltip13 {
+        left: -6%;
+        bottom: 155%;
+    }
+
+    .tooltip .tooltip14 {
+        right: 7%;
+        bottom: 180%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip15 {
+        top: 128%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 0 0 4% 9%;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura até 375px */
+@media (max-width:375px) {
+
+    .pagina {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    #perfil {
+        width: 357%;
+        object-position: -104px;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 3%;
+    }
+
+    h2 {
+        margin: 0 0 3% 7%;
+        font-size: 2.7rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        margin-top: 2%;
+    }
+
+    #quadro2 {
+        grid-template-columns: 69% 31%;
+    }
+
+    #caixa-texto-quadro2A {
+        padding: 1% 7% 0 5%;
+    }
+
+    #caixa-texto-quadro2B {
+        padding: 1% 3% 0 3%;
+    }
+
+    #quadro3 {
+        grid-template-columns: 68% 32%;
+    }
+
+    #caixa-texto-quadro3A {
+        padding: 1% 1% 0 0;
+    }
+
+    #imgQ3 {
+        object-position: 0 8px;
+        width: 114%;
+    }
+
+    #quadro4 {
+        padding-bottom: 2%;
+    }
+
+    #quadro6 {
+        grid-template-columns: 25% 43% 32%;
+    }
+
+    #imgQ6A {
+        width: 170%;
+    }
+
+    #quadro8 {
+        grid-template-rows: 197px 78px 200px;
+        grid-template-columns: 22% 53% 25%;
+    }
+
+    #caixa-texto-quadro8A {
+        text-align: end;
+        padding: 1% 4% 0 1%;
+    }
+
+    #caixa-texto-quadro8C {
+        padding: 0 4% 0 5%;
+        text-align: start;
+    }
+
+    #imgQ8A {
+        width: 180%;
+        object-position: -44px;
+        bottom: 14px;
+    }
+
+    #imgQ8B {
+        width: 145%;
+    }
+
+    #quadro9 {
+        grid-auto-rows: 165px 146px;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 1% 3%;
+    }
+
+    #caixa-texto-quadro11D {
+        padding: 1% 4% 0 0;
+    }
+
+    .tooltip .tooltip1 {
+        left: -1%;
+        bottom: -553%;
+        width: 245px;
+    }
+
+    .tooltip .tooltip2 {
+        left: -196%;
+        bottom: -735%;
+    }
+
+    .tooltip .tooltip3 {
+        left: -213%;
+        bottom: -642%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -409%;
+        bottom: 146%;
+    }
+
+    .tooltip .tooltip5 {
+        left: -70%;
+        bottom: -650%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -210%;
+        bottom: -560%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -2%;
+        bottom: -552%;
+        width: 291px;
+    }
+
+    .tooltip .tooltip8 {
+        left: -137%;
+        bottom: -561%;
+        width: 310px;
+    }
+
+    .tooltip .tooltip9 {
+        left: -93%;
+        bottom: -469%;
+        width: 290px;
+    }
+
+    .tooltip .tooltip10 {
+        left: -263%;
+        bottom: -829%;
+        width: 356px;
+    }
+
+    .tooltip .tooltip11 {
+        left: -312%;
+        bottom: -643%;
+        width: 255px;
+    }
+
+    .tooltip .tooltip12 {
+        left: -285%;
+        bottom: -375%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip13 {
+        left: -9%;
+        bottom: 150%;
+        width: 275px;
+    }
+
+    .tooltip .tooltip14 {
+        width: 343px;
+    }
+}
+
+/* determina telas com largura até 360px */
+@media (max-width:360px) {
+    
+    h4 {
+        font-size: 1.7rem;
+        margin-top: 3%;
+    }
+
+    #perfil {
+        width: 71px;
+        object-position: -120px;
+    }
+
+    #quadro8 {
+        grid-template-rows: 216px 75px 194px;
+        grid-template-columns: 21% 56% 23%;
+    }
+
+    #caixa-texto-quadro8C {
+        padding: 0 2% 0 6%;
+    }
+
+    #quadro11 {
+        grid-template-columns: 16% 84%;
+    }
+
+    #imgQ11B {
+        bottom: -12px;
+        height: 105%;
+    }
+
+    h2 {
+        margin: 0 0 3% 2%;
+    }
+
+    #fonte {
+        height: 6vh;
+    }
+    
+    .tooltip .tooltip1 {
+        left: -2%;
+        bottom: -550%;
+        width: 240px;
+    }
+
+    .tooltip .tooltip2 {
+        left: -165%;
+        bottom: -825%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip3 {
+        left: -213%;
+        bottom: -645%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -5%;
+        bottom: 155%;
+        width: 240px;
+    }
+
+    .tooltip .tooltip5 {
+        left: -230%;
+        bottom: -729%;
+        width: 230px;
+    }
+
+    .tooltip .tooltip6 {
+        left: -116%;
+        bottom: -554%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -2%;
+        bottom: -550%;
+    }
+
+    .tooltip .tooltip8 {
+        left: -136%;
+        bottom: -558%;
+    }
+
+    .tooltip .tooltip9 {
+        left: -92%;
+        bottom: -471%;
+    }
+
+    .tooltip .tooltip10 {
+        left: -260%;
+        bottom: -826%;
+    }
+
+    .tooltip .tooltip11 {
+        left: -315%;
+        bottom: -649%;
+    }
+
+    .tooltip .tooltip12 {
+        left: -290%;
+        bottom: -370%;
+    }
+
+    .tooltip .tooltip13 {
+        left: -20%;
+        bottom: 156%;
+    }
+
+    .tooltip .tooltip14 {
+        right: -5%;
+        width: 342px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 415 a 428 px */
+@media (orientation: landscape) and (max-height: 428px) {
+
+    #quadro1 {
+        height: 100vh;
+    }
+
+    #perfil {
+        width: 405%;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    h4 {
+        margin: 2% auto;
+    }
+
+    hr {
+        margin-bottom: 2%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 3% 0 3%;
+        text-align: justify;
+        line-height: 2.6rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #quadro2 {
+        height: 100vh;
+        grid-template-columns: 63% 37%;
+        grid-template-rows: 47vh 53vh;
+        margin-left: 4%;
+    }
+
+    #caixa-texto-quadro2A {
+        grid-area: 1 / 1 / span 1 / span 2;
+        padding: 1% 19% 0 0;
+        line-height: 2.7rem;
+        z-index: 2;
+    }
+
+    #caixa-texto-quadro2B {
+        padding: 0 2% 0 0;
+        line-height: 2.7rem;
+    }
+
+    #imgQ2 {
+        grid-area: 1 / 2 / span 2 / span 1;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        height: 100vh;
+    }
+
+    #quadro3 {
+        height: 100vh;
+        grid-template-columns: 74% 26%;
+        grid-template-rows: 23vh 48vh 29vh;
+    }
+
+    #caixa-texto-quadro3A {
+        grid-area: 1 / 1 / span 1 / span 2;
+    }
+
+    #caixa-texto-quadro3B {
+        padding: 0 1% 0 0;
+    }
+
+    #caixa-texto-quadro3C {
+        padding: 0 3% 0 0;
+    }
+
+    #imgQ3 {
+        height: 118%;
+        object-fit: cover;
+        object-position: -25px 0;
+    }
+
+    #quadro4 {
+        height: 100vh;
+        position: relative;
+    }
+
+    #caixa-texto-quadro4A {
+        line-height: 2.5rem;
+        padding: 2% 0 0 0;
+        bottom: 1px;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.45rem;
+        padding: 0 4%;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.5rem;
+        padding: 0 4%;
+    }
+
+    #imgQ4A {
+        width: 95%;
+    }
+
+    #imgQ4B {
+        width: 90%;
+        position: absolute;
+        bottom: 1px;
+        right: 0;
+    }
+
+    #quadro5 {
+        height: 100vh;
+        position: relative;
+        grid-template-columns: 57% 43%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 1% 8% 0 7%;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.6rem;
+        padding: 0 4%;
+    }
+
+    #quadro6 {
+        height: 100vh;
+        grid-template-rows: 33vh 30vh 37vh;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 0 10% 0 0;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 8% 0 6%;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    #imgQ6A {
+        width: 90%;
+    }
+
+    #imgQ6B {
+        width: 100%;
+    }
+
+    #imgQ6C {
+        width: 70%;
+    }
+
+    #quadro7 {
+        height: 100vh;
+        position: relative;
+    }
+
+    #caixa-texto-quadro7 {
+        padding: 1% 4% 0 4%;
+        line-height: 2.6rem;
+        height: 76vh;
+    }
+
+    #imgQ7 {
+        height: 24%;
+    }
+
+    #quadro8 {
+        height: 100vh;
+        position: relative;
+        grid-template-rows: 43vh 19vh 38vh;
+    }
+
+    #caixa-texto-quadro8A {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro8B {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro8C {
+        line-height: 2.6rem;
+    }
+
+    #imgQ8A {
+        width: 100%;
+        bottom: -6px;
+    }
+
+    #quadro9 {
+        grid-template-columns: 44% 56%;
+        grid-auto-rows: 66vh 34vh;
+    }
+
+    #imgQ9 {
+        grid-area: 1 / 1 / span 2 / span 1;
+        object-position: 0;
+        width: 100%;
+    }
+
+    #caixa-texto-quadro9A {
+        padding: 1% 5% 0 3%;
+    }
+
+    #caixa-texto-quadro9B {
+        grid-area: 2 / 2 / span 1 / span 1;
+        padding: 0 5% 0 3%;
+    }
+
+    #quadro10 {
+        height: 100vh;
+        position: relative;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 1% 4% 0 4%;
+        line-height: 2.2rem;
+        height: 40vh;
+    }
+
+    #imgQ10 {
+        height: 60vh;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #quadro11 {
+        height: 100vh;
+        position: relative;
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: 16% 84%;
+    }
+
+    #caixa-texto-quadro11A {
+        grid-area: 1 / 2 / span 1 / span 1;
+        line-height: 2.4rem;
+        padding: 1% 20% 0 5%;
+    }
+
+    #caixa-texto-quadro11B {
+        line-height: 2.4rem;
+        padding: 0 14% 0 12%;
+    }
+
+    #caixa-texto-quadro11C {
+        line-height: 2.4rem;
+        padding: 0 14% 0 13%;
+    }
+
+    #caixa-texto-quadro11D {
+        line-height: 2.3rem;
+        padding: 0 15% 0 14%;
+    }
+
+    #imgQ11A {
+        width: 93%;
+    }
+
+    #quadro12 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro12 {
+        padding: 1% 4% 4% 4%;
+    }
+
+    #quadro13 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro13 {
+        line-height: 2.2rem;
+    }
+
+    #imgQ13 {
+        position: absolute;
+        object-fit: contain;
+        object-position: 0 27px;
+        width: 90%;
+        bottom: 0;
+        left: 5%;
+    }
+
+    #quadro14 {
+        margin: 12%;
+        padding-top: 1%;
+    }
+
+    #fonte {
+        bottom: 33vh;
+    }
+
+    #titulo {
+        display: none;
+    }
+
+    .tooltip .tooltip1 {
+        left: -33%;
+        bottom: -408%;
+    }
+
+    .tooltip .tooltip2 {
+        left: -189%;
+        bottom: -733%;
+    }
+
+    .tooltip .tooltip3 {
+        left: -365%;
+        bottom: -660%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -426%;
+        bottom: -232%;
+    }
+
+    .tooltip .tooltip5 {
+        left: -807%;
+        bottom: -548%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -363%;
+        bottom: -562%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -1%;
+        bottom: -533%;
+    }
+
+    .tooltip .tooltip8 {
+        left: -149%;
+        bottom: -527%;
+        width: 405px;
+    }
+
+    .tooltip .tooltip9 {
+        left: -85%;
+        bottom: -509%;
+        width: 310px;
+    }
+
+    .tooltip .tooltip10 {
+        left: -279%;
+        bottom: -861%;
+    }
+
+    .tooltip .tooltip11 {
+        left: -197%;
+        bottom: -487%;
+    }
+
+    .tooltip .tooltip12 {
+        left: -178%;
+        bottom: -243%;
+    }
+
+    .tooltip .tooltip13 {
+        left: -215%;
+        bottom: 126%;
+    }
+
+    .tooltip .tooltip14 {
+        width: 730px;
+    }
+
+    .tooltip .tooltip15 {
+        top: 93%;
+    }
+
+    #tela-final {
+        position: relative;
+        height: 100vh;
+    }
+
+    #mensagem-final-ca {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 391 a 414 px */
+@media (orientation: landscape) and (max-height: 414px) {
+
+    #perfil {
+        width: 380%;
+    }
+
+    #caixa-texto-quadro2A {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro2B {
+        line-height: 2.6rem;
+    }
+
+    #quadro3 {
+        grid-template-rows: 22vh 48vh 29vh;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro8A {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro8B {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro8C {
+        line-height: 2.5rem;
+    }
+
+    #imgQ8A {
+        width: 97%;
+        bottom: -7px;
+    }
+
+    #quadro9 {
+        grid-auto-rows: 67vh 33vh;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 2.7rem;
+    }
+
+    #caixa-texto-quadro9B {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro11C {
+        padding: 0 6% 0 7%;
+    }
+
+    #caixa-texto-quadro11D {
+        padding: 0 10% 0 9%;
+    }
+
+    #imgQ11A {
+        width: 88%;
+    }
+
+    #imgQ13 {
+        object-position: 0 34px;
+    }
+
+    #quadro14 {
+        margin: 13%;
+    }
+
+    #fonte {
+        bottom: 38vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: -332%;
+    }
+
+    .tooltip .tooltip2 {
+        left: -6%;
+    }
+
+    .tooltip .tooltip3 {
+        left: -179%;
+    }
+
+    .tooltip .tooltip4 {
+        bottom: -243%;
+    }
+
+    .tooltip .tooltip5 {
+        bottom: -575%;
+    }
+
+    .tooltip .tooltip6 {
+        bottom: -573%;
+    }
+
+    .tooltip .tooltip11 {
+        bottom: -518%;
+    }
+
+    .tooltip .tooltip12 {
+        left: -181%;
+        bottom: -257%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de 376 a 390px */
+@media (orientation: landscape) and (max-height: 390px) {
+
+    hr {
+        width: 100%;
+    }
+
+    #perfil {
+        width: 358%;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.4rem;
+        padding: 0 4%;
+    }
+
+    #caixa-texto-quadro2A {
+        line-height: 2.45rem;
+    }
+
+    #caixa-texto-quadro2B {
+        line-height: 2.45rem;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro3B {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro3C {
+        line-height: 2.6rem;
+    }
+
+    #quadro4 {
+        grid-template-columns: 23% 53% 24%;
+    }
+
+    #caixa-texto-quadro4A {
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.4rem;
+        padding: 0;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.4rem;
+    }
+
+    #imgQ4A {
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 20px;
+    }
+
+    #imgQ4B {
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 40px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 50% 49%;
+        grid-auto-rows: 58vh 52vh;
+    }
+
+    #caixa-texto-quadro5A {
+        line-height: 2.4rem;
+        padding: 2% 8% 0 7%;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.4rem;
+    }
+
+    #quadro6 {
+        grid-template-rows: 32vh 28vh 40vh;
+        grid-template-columns: 20% 52% 28%;
+    }
+
+    #imgQ6A {
+        width: 106%;
+    }
+
+    #imgQ6B {
+        width: 85%;
+        right: 0;
+    }
+
+    #imgQ6C {
+        width: 85%;
+    }
+
+    #caixa-texto-quadro6C {
+        padding: 0 5% 0 0;
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2.2rem;
+        height: 73vh;
+    }
+
+    #imgQ7 {
+        height: 27vh;
+    }
+
+    #quadro8 {
+        grid-template-rows: 42vh 19vh 39vh;
+    }
+
+    #caixa-texto-quadro8A {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro8B {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro8C {
+        line-height: 2.3rem;
+        padding: 0 1% 0 5%;
+    }
+
+    #imgQ8A {
+        width: 91%;
+        bottom: -10px;
+    }
+
+    #imgQ8B {
+        width: 95%;
+        right: 0;
+    }
+
+    #quadro9 {
+        grid-auto-rows: 66vh 34vh;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro9B {
+        line-height: 2.5rem;
+    }
+
+    #imgQ10 {
+        height: 56vh;
+    }
+
+    #caixa-texto-quadro12 {
+        padding: 1% 4% 1% 4%;
+    }
+
+    #imgQ13 {
+        width: 82%;
+        object-position: 11px 34px;
+    }
+
+    #quadro14 {
+        margin: 16%;
+    }
+
+    #fonte {
+        bottom: 46vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: -330%;
+        bottom: -447%;
+    }
+
+    .tooltip .tooltip2 {
+        left: -6%;
+        bottom: -712%;
+        width: 395px;
+    }
+
+    .tooltip .tooltip3 {
+        left: -184%;
+        bottom: -712%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -426%;
+        bottom: -255%;
+    }
+
+    .tooltip .tooltip5 {
+        left: -800%;
+        bottom: -604%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -362%;
+        bottom: -604%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -1%;
+        bottom: -574%;
+    }
+
+    .tooltip .tooltip8 {
+        left: -149%;
+        bottom: -542%;
+    }
+
+    .tooltip .tooltip9 {
+        left: -78%;
+        bottom: -533%;
+    }
+
+    .tooltip .tooltip10 {
+        left: -252%;
+        bottom: -900%;
+    }
+
+    .tooltip .tooltip11 {
+        left: -200%;
+        bottom: -597%;
+    }
+
+    .tooltip .tooltip12 {
+        left: -185%;
+        bottom: -296%;
+    }
+
+    .tooltip .tooltip13 {
+        left: -8%;
+        bottom: 140%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de 361 até 375 px */
+@media (orientation: landscape) and (max-height: 375px) {
+    .pagina {
+        max-width: 667px;
+        font-size: 1.8rem;
+    }
+
+    #perfil {
+        width: 353%;
+        object-fit: cover;
+    }
+
+    h4 {
+        font-size: 2.6rem;
+    }
+
+    hr {
+        margin: 2% auto;
+        border-width: 3px;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.3rem;
+        padding: 0 3%;
+    }
+
+    #quadro2 {
+        grid-template-rows: 44vh 56vh;
+        margin-left: 3%;
+    }
+
+    #caixa-texto-quadro2A {
+        line-height: 2.25rem;
+        padding: 6px 13% 0 0;
+    }
+
+    #caixa-texto-quadro2B {
+        line-height: 2.25rem;
+        padding: 0 3% 0 0;
+    }
+
+    #quadro3 {
+        grid-template-columns: 81% 19%;
+        grid-template-rows: 22vh 48vh 30vh;
+        margin-left: 2%;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro3B {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro3C {
+        line-height: 2.5rem;
+        padding: 0 1% 0 0;
+    }
+
+    #imgQ3 {
+        height: 115%;
+        object-position: -43px 0;
+    }
+
+    #quadro4 {
+        grid-template-columns: 22% 57% 21%;
+        grid-template-rows: 27vh 26vh 47vh;
+    }
+
+    #caixa-texto-quadro4A {
+        padding: 1% 0 0 0;
+    }
+
+    #caixa-texto-quadro4C {
+        padding: 0 3%;
+    }
+
+    #imgQ4A {
+        width: 115%;
+        object-position: -14px 20px;
+    }
+
+    #imgQ4B {
+        width: 129%;
+        object-position: 23px 40px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 53% 47%;
+        grid-auto-rows: 53vh 47vh;
+    }
+
+    #caixa-texto-quadro5A {
+        line-height: 2.4rem;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.3rem;
+        padding: 1% 2% 0 4%;
+    }
+
+    #imgQ5 {
+        height: 100%;
+    }
+
+    #quadro6 {
+        grid-template-rows: 30vh 30vh 40vh;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 0 7% 0 2%;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 1% 0 6%;
+    }
+
+    #caixa-texto-quadro6C {
+        text-align: end;
+        line-height: 2.5rem;
+    }
+
+    #imgQ6A {
+        width: 118%;
+    }
+
+    #imgQ6B {
+        width: 100%;
+    }
+
+    #imgQ6C {
+        width: 110%;
+        left: 0;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2rem;
+    }
+
+    #imgQ7 {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #quadro8 {
+        grid-template-columns: 17% 65% 18%;
+        grid-template-rows: 44vh 18vh 38vh;
+        margin-left: 2%;
+    }
+
+    #caixa-texto-quadro8A {
+        padding: 1% 3% 0 0;
+    }
+
+    #caixa-texto-quadro8B {
+        padding: 0;
+    }
+
+    #caixa-texto-quadro8C {
+        padding: 0;
+        line-height: 2.2rem;
+    }
+
+    #imgQ8A {
+        width: 126%;
+        bottom: 0;
+        left: -12px;
+        object-fit: cover;
+        object-position: -17px;
+    }
+
+    #imgQ8B {
+        width: 113%;
+        right: -22px;
+    }
+
+    #quadro9 {
+        grid-template-columns: 45% 55%;
+        grid-auto-rows: 76vh 34vh;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 2.5rem;
+        padding: 2% 5% 0 3%;
+    }
+
+    #caixa-texto-quadro9B {
+        grid-area: 2 / 1 / span 1 / span 2;
+        line-height: 2.5rem;
+        padding: 1% 5% 0 5%;
+    }
+
+    #imgQ9 {
+        grid-area: 1 / 1 / span 1 / span 1;
+        object-position: 0 36px;
+    }
+
+    #caixa-texto-quadro10 {
+        line-height: 2.2rem;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro11A {
+        line-height: 2.2rem;
+        padding: 1% 16% 0 0%;
+    }
+
+    #caixa-texto-quadro11B {
+        line-height: 2.3rem;
+        padding: 0 12% 0 8%;
+    }
+
+    #caixa-texto-quadro11C {
+        padding: 0 4% 0 2%;
+    }
+
+    #caixa-texto-quadro11D {
+        padding: 0 4% 0 8%;
+    }
+
+    #imgQ11A {
+        width: 98%;
+    }
+
+    #caixa-texto-quadro13 {
+        padding: 0 3%;
+    }
+
+    #imgQ13 {
+        width: 95%;
+        object-position: -5px 31px;
+    }
+
+    #quadro14 {
+        margin: 10%;
+    }
+
+    #fonte {
+        bottom: 29vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: -38%;
+        bottom: -410%;
+        width: 380px;
+    }
+
+    .tooltip .tooltip2 {
+        left: -178%;
+        bottom: -745%;
+        width: 320px;
+    }
+
+    .tooltip .tooltip3 {
+        left: -370%;
+        bottom: -585%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -366%;
+        bottom: -260%;
+        width: 275px;
+    }
+
+    .tooltip .tooltip5 {
+        left: -813%;
+        bottom: -518%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -360%;
+        bottom: -608%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -1%;
+        bottom: -460%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip8 {
+        left: -122%;
+        bottom: -480%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip9 {
+        left: -79%;
+        bottom: -478%;
+        width: 281px;
+    }
+
+    .tooltip .tooltip10 {
+        left: -288%;
+        bottom: -728%;
+    }
+
+    .tooltip .tooltip11 {
+        left: -177%;
+        bottom: -588%;
+        width: 360px;
+    }
+
+    .tooltip .tooltip12 {
+        left: -1%;
+        bottom: -392%;
+        width: 290px;
+    }
+
+    .tooltip .tooltip13 {
+        left: -204%;
+        bottom: 140%;
+        width: 399px;
+    }
+
+    .tooltip .tooltip13 {
+        bottom: 126%;
+        width: 615px;
+    }
+
+    .tooltip .tooltip14 {
+        width: 610px;
+        bottom: 125%;
+    }
+}
+
+/* determina telas em LANDSCAPE com altura de até 360 px */
+@media (orientation: landscape) and (max-height: 360px) {
+    .pagina {
+        max-width: 640px;
+    }
+
+    #perfil {
+        width: 320%;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.2rem;
+    }
+
+    h4 {
+        margin-top: 1%;
+    }
+
+    #caixa-texto-quadro2A {
+        line-height: 2.1rem;
+        padding: 6px 9% 0 0;
+    }
+
+    #caixa-texto-quadro2B {
+        line-height: 2.1rem;
+        padding: 0 3% 0 0;
+    }
+
+    #quadro3 {
+        grid-template-columns: 84% 16%;
+        grid-template-rows: 21vh 45vh 34vh;
+        margin-left: 3%;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro3B {
+        line-height: 2.3rem;
+        text-align: start;
+        padding: 0;
+    }
+
+    #caixa-texto-quadro3C {
+        line-height: 2.3rem;
+        padding: 0 3% 0 0;
+    }
+
+    #imgQ3 {
+        height: 119%;
+    }
+
+    #quadro4 {
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 25vh 25vh 50vh;
+    }
+
+    #caixa-texto-quadro4A {
+        line-height: 2.2rem;
+        text-align: center;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.2rem;
+        text-align: center;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.2rem;
+    }
+
+    #imgQ4A {
+        width: 123%;
+    }
+
+    #imgQ4B {
+        width: 132%;
+        object-position: 15px 40px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 51% 49%;
+    }
+
+    #caixa-texto-quadro5A {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.2rem;
+    }
+
+    #quadro6 {
+        grid-template-columns: 19% 54% 27%;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 0% 0 5%;
+    }
+
+    #caixa-texto-quadro6C {
+        padding: 0 4% 0 0;
+    }
+
+    #imgQ6A {
+        width: 123%;
+    }
+
+    #imgQ6C {
+        left: -11px;
+    }
+
+    #caixa-texto-quadro7 {
+        padding: 1% 2% 0 3%;
+    }
+
+    #imgQ7 {
+        height: 24vh;
+    }
+
+    #quadro8 {
+        grid-template-columns: 14% 71% 15%;
+        grid-template-rows: 44vh 18vh 38vh;
+    }
+
+    #caixa-texto-quadro8A {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro8B {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro8C {
+        line-height: 2.1rem;
+    }
+
+    #imgQ8A {
+        object-position: -11px -5px;
+        height: 86%;
+    }
+
+    #quadro9 {
+        grid-template-columns: 43% 57%;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 2.4rem;
+        padding: 2% 7% 0 1%;
+    }
+
+    #caixa-texto-quadro9B {
+        line-height: 2.4rem;
+        padding: 1% 4% 0 3%;
+    }
+
+    #caixa-texto-quadro10 {
+        line-height: 2.1rem;
+    }
+
+    #quadro11 {
+        grid-template-columns: 13% 87%;
+    }
+
+    #caixa-texto-quadro11A {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro11B {
+        line-height: 2.1rem;
+        padding: 0 11% 0 8%;
+    }
+
+    #caixa-texto-quadro11C {
+        line-height: 2.1rem;
+    }
+
+    #imgQ11A {
+        width: 117%;
+    }
+
+    #caixa-texto-quadro12 {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro13 {
+        line-height: 2rem;
+        padding: 1% 4% 0 4%;
+    }
+
+    #imgQ13 {
+        width: 90%;
+        object-position: 0 27px;
+    }
+
+    .tooltip .tooltip1 {
+        left: -2%;
+        bottom: -520%;
+        width: 287px;
+    }
+
+    .tooltip .tooltip2 {
+        left: -172%;
+        bottom: -784%;
+    }
+
+    .tooltip .tooltip3 {
+        left: -368%;
+        bottom: -614%;
+    }
+
+    .tooltip .tooltip4 {
+        left: -362%;
+        bottom: -283%;
+    }
+
+    .tooltip .tooltip5 {
+        left: -813%;
+        bottom: -565%;
+    }
+
+    .tooltip .tooltip6 {
+        left: -363%;
+        bottom: -660%;
+    }
+
+    .tooltip .tooltip7 {
+        left: -2%;
+        bottom: -500%;
+    }
+
+    .tooltip .tooltip8 {
+        left: -125%;
+        bottom: -533%;
+    }
+
+    .tooltip .tooltip9 {
+        left: -102%;
+        bottom: -526%;
+    }
+
+    .tooltip .tooltip10 {
+        left: -274%;
+        bottom: -795%;
+    }
+
+    .tooltip .tooltip13 {
+        bottom: 146%;
+        width: 460px;
+    }
+
+    .tooltip .tooltip14 {
+        width: 587px;
+        bottom: 125%;
+    }
+}

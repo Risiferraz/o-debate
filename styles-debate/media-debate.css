@@ -1,0 +1,249 @@
+/* determina telas com largura entre 391 a 428 px */
+@media (max-width:428px) {
+
+    #pagina {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        max-width: 412px;
+    }
+
+    #quadro1 {
+        width: 100%;
+    }
+
+    #perfil {
+        width: 227%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 2% 4% 0 3%;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        margin-top: 3%;
+    }
+
+    #titulo {
+        margin: 1% auto 2% auto;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        line-height: 3.1rem;
+    }
+
+    hr {
+        margin: 1% auto;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura de 376 a 390px */
+@media (max-width:390px) {
+    #pagina {
+        max-width: 384px;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    #caixa-texto-quadro1 {
+        max-width: 279px;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    hr {
+        margin: 2% auto;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas com largura de 361 até 375px */
+@media (max-width:375px) {
+
+    #pagina {
+        max-width: 375px;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        line-height: 1.3em;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas com largura até 360px */
+@media (max-width:360px) {
+
+    #pagina {
+        max-width: 360px;
+    }
+
+    #perfil {
+        width: 83px;
+    }
+
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 413 a 428 px */
+@media (orientation: landscape) and (max-height: 428px) {
+
+    #quadro1 {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 4% 0 3%;
+        line-height: 2.6rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    h4 {
+        font-size: 2.4rem;
+        margin: 5% auto 2% auto;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+        line-height: 1.3em;
+    }
+
+    hr {
+        margin: 1% auto;
+    }
+
+    #perfil {
+        width: 320%;
+    }
+
+    #quadro2 {
+        padding-top: 0.1%;
+        margin: 0 3%;
+    }
+
+    #quadro3 {
+        scroll-snap-align: start;
+        height: 100vh;
+    }
+
+    .opcoes {
+        width: 61%;
+        margin: 1% auto;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 391 a 412 px */
+@media (orientation: landscape) and (max-height: 412px) {
+
+    .opcoes {
+        width: 60%;
+        margin: 1% auto;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de 376 a 390px */
+@media (orientation: landscape) and (max-height: 390px) {
+
+    h4 {
+        margin: 3% auto;
+        font-size: 2.6rem;
+    }
+
+    #perfil {
+        width: 295%;
+    }
+
+    #quadro2 {
+        padding-top: 1%;
+        margin: 0 8%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        line-height: 1.2em;
+    }
+
+    .opcoes {
+        width: 55%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de 361 até 375 px */
+@media (orientation: landscape) and (max-height: 375px) {
+
+    #pagina {
+        max-width: 667px;
+    }
+
+    #perfil {
+        width: 310%;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.4rem;
+    }
+
+    h4 {
+        margin: 2% auto;
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    #titulo {
+        margin: 2% auto;
+    }
+
+    #quadro2 {
+        margin: 0 6%;
+    }
+
+    hr {
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 2.3rem;
+        line-height: 1.9em;
+    }
+
+    .opcoes {
+        width: 66%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de até 360 px */
+@media (orientation: landscape) and (max-height: 360px) {
+
+    #pagina {
+        max-width: 640px;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.2rem;
+        font-size: 1.9rem;
+    }
+
+    h4 {
+        margin: 3% auto;
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+}

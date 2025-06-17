@@ -1,0 +1,956 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+.pagina {
+    background-image: url("../imagens-fred/pano-de-fundo.jpg");
+    background-color: rgb(200, 187, 172);
+    background-size: contain;
+    max-width: 800px;
+    font-family: "Palatino Lynotype";
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    font-style: italic;
+    color: rgb(54, 49, 34);
+    margin: 0 auto;
+}
+
+hr {
+    border-color: rgb(70, 7, 3);
+    border-width: 2px;
+    box-shadow: 2px 2px 2px rgb(78, 95, 95);
+    margin: 2% auto;
+    width: 100%;
+}
+
+h4 {
+    /* título */
+    font-size: 2.7rem;
+    line-height: 2rem;
+    color: rgb(54, 49, 34);
+    text-align: center;
+}
+
+#quadro1 {
+    display: flex;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+#perfil {
+    width: 330%;
+    object-fit: cover;
+}
+
+#caixa-texto-quadro1 {
+    padding: 2% 4% 0 2%;
+    text-align: justify;
+}
+
+#quadro2 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#caixa-texto-quadro2 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#quadro3 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro3 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ3 {
+    width: 100%;
+}
+
+#quadro4 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: flex;
+}
+
+#caixa-texto-quadro4 {
+    padding: 1% 4% 0 2%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ4 {
+    width: 500%;
+}
+
+#quadro5 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+}
+
+#caixa-texto-quadro5 {
+    padding: 1% 4% 0 2%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ5 {
+    width: 535%;
+}
+
+#quadro6 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+}
+
+#caixa-texto-quadro6 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ6 {
+    width: 405%;
+    height: 435px;
+}
+
+#imgQ6-7 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    width: 100%;
+}
+
+#quadro7 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro7 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#quadro8 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro8 {
+    padding: 2% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#quadro9 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro9 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ9 {
+    width: 100%;
+}
+
+#quadro10 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro10 {
+    padding: 1% 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#quadro11 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro11 {
+    padding: 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ11 {
+    width: 100%;
+}
+
+#quadro12 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro12 {
+    padding: 1% 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ12 {
+    width: 100%;
+}
+
+#quadro13 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 31% 12% 57%;
+}
+
+#caixa-texto-quadro13A {
+    grid-area: 1 / 2 / span 1 / span 2;
+    padding: 1% 4% 0 6px;
+    text-align: justify;
+    position: relative;
+}
+
+#caixa-texto-quadro13B {
+    grid-area: 2 / 3 / span 1 / span 1;
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#caixa-texto-quadro13C {
+    grid-area: 3 / 1 / span 1 / span 3;
+    padding: 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ13 {
+    grid-area: 1 / 1 / span 2 / span 2;
+    width: 100%;
+}
+
+#quadro14 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro14 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#quadro15 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 63% 37%;
+}
+
+#caixa-texto-quadro15A {
+    padding: 1% 1% 0 6%;
+    text-align: justify;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+#caixa-texto-quadro15B {
+    padding: 1% 1% 0 6%;
+    text-align: justify;
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+#imgQ15 {
+    grid-area: 1 / 2 / span 2 / span 1;
+    width: 100%;
+}
+
+#quadro16 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 47% 53%;
+}
+
+#caixa-texto-quadro16A {
+    padding: 1% 4% 0 4%;
+    grid-area: 1 / 1 / span 1 / span 2;
+}
+
+#caixa-texto-quadro16B {
+    padding: 1% 4% 0 42%;
+    grid-area: 2 / 1 / span 1 / span 2;
+    text-align: end;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#caixa-texto-quadro16C {
+    padding: 1% 4% 0 4%;
+    grid-area: 3 / 2 / span 1 / span 2;
+    text-align: end;
+}
+
+#imgQ16 {
+    grid-area: 2 / 1 / span 2 / span 1;
+    width: 106%;
+    position: absolute;
+    bottom: 0;
+}
+
+#quadro17 {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro17 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#quadro18 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#caixa-texto-quadro18A {
+    grid-area: 1 / 1 / span 1 / span 2;
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+}
+
+#caixa-texto-quadro18B {
+    grid-area: 2 / 2 / span 1 / span 1;
+    padding: 0 14% 0 5%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#imgQ18 {
+    grid-area: 2 / 1 / span 1 / span 1;
+    width: 100%;
+}
+
+#quadro19 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+
+#caixa-texto-quadro19 {
+    padding: 1% 4% 0 4%;
+    text-align: justify;
+    position: relative;
+}
+
+#imgQ19 {
+    width: 100%;
+}
+
+#quadro20 {
+    position: relative;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    margin: 2%;
+}
+
+#fonte {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    position: relative;
+    text-align: end;
+    padding: 1% 4%;
+}
+
+td {
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.opcao {
+    width: 100%;
+}
+
+.opcao-link {
+    width: 100%;
+}
+
+#tela-final {
+    display: none;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#mensagem-final-ca {
+    width: 100%;
+}
+
+#link {
+    margin: auto;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+h2 {
+    font-family: "Palatino Linotype";
+    font-size: 5rem;
+    color: rgb(54, 49, 34);
+    text-shadow: 2px 2px 2px rgb(78, 95, 95);
+    line-height: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.0rem;
+    color: brown;
+    display: inline;
+}
+
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltip1 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 51%;
+    bottom: 31%;
+    padding: 0.5em;
+    width: 340px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip1 {
+    visibility: visible;
+}
+
+.tooltip .tooltip2 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 37%;
+    bottom: 29%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip2 {
+    visibility: visible;
+}
+
+.tooltip .tooltip3 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    padding: 0.5em;
+    width: 310px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip3 {
+    visibility: visible;
+}
+
+.tooltip .tooltip4 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 7%;
+    bottom: 15%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip4 {
+    visibility: visible;
+}
+
+.tooltip .tooltip5 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 4%;
+    bottom: 8%;
+    padding: 0.5em;
+    width: 439px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip5 {
+    visibility: visible;
+}
+
+.tooltip .tooltip6 {
+    z-index: 4;
+    visibility: hidden;
+    position: absolute;
+    left: 4%;
+    bottom: 35%;
+    padding: 0.5em;
+    width: 370px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip6 {
+    visibility: visible;
+}
+
+.tooltip .tooltip7 {
+    z-index: 4;
+    visibility: hidden;
+    position: absolute;
+    left: 20%;
+    bottom: 15%;
+    padding: 0.5em;
+    width: 448px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip7 {
+    visibility: visible;
+}
+
+.tooltip .tooltip8 {
+    z-index: 3;
+    visibility: hidden;
+    position: absolute;
+    left: 15%;
+    bottom: 62%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip8 {
+    visibility: visible;
+}
+
+.tooltip .tooltip9 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 18%;
+    bottom: -56%;
+    padding: 0.5em;
+    width: 420px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip9 {
+    visibility: visible;
+}
+
+.tooltip .tooltip10 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 3%;
+    bottom: 36%;
+    padding: 0.5em;
+    width: 373px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip10 {
+    visibility: visible;
+}
+
+.tooltip .tooltip11 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 4%;
+    bottom: 69%;
+    padding: 0.5em;
+    width: 260px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip11 {
+    visibility: visible;
+}
+
+.tooltip .tooltip12 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 40%;
+    bottom: 33%;
+    padding: 0.5em;
+    width: 330px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip12 {
+    visibility: visible;
+}
+
+.tooltip .tooltip13 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 48%;
+    bottom: 23%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip13 {
+    visibility: visible;
+}
+
+.tooltip .tooltip14 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 13%;
+    bottom: 3%;
+    padding: 0.5em;
+    width: 440px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip14 {
+    visibility: visible;
+}
+
+.tooltip .tooltip15 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 17%;
+    bottom: 73%;
+    padding: 0.5em;
+    width: 320px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip15 {
+    visibility: visible;
+}
+
+.tooltip .tooltip16 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 6%;
+    bottom: 24%;
+    padding: 0.5em;
+    width: 400px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip16 {
+    visibility: visible;
+}
+
+.tooltip .tooltip17 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 25%;
+    bottom: 53%;
+    padding: 0.5em;
+    width: 435px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip17 {
+    visibility: visible;
+}
+
+.tooltip .tooltip18 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 4%;
+    bottom: 27%;
+    padding: 0.5em;
+    width: 375px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip18 {
+    visibility: visible;
+}
+
+.tooltip .tooltip19 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 26%;
+    bottom: 62%;
+    padding: 0.5em;
+    width: 315px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip19 {
+    visibility: visible;
+}
+
+.tooltip .tooltip20 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 39%;
+    bottom: 43%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip20 {
+    visibility: visible;
+}
+
+.tooltip .tooltip21 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 4%;
+    bottom: 58%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip21 {
+    visibility: visible;
+}
+
+.tooltip .tooltip22 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 10%;
+    bottom: -9%;
+    padding: 0.5em;
+    width: 400px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip22 {
+    visibility: visible;
+}
+
+.tooltip .tooltip23 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    left: 9%;
+    bottom: 16%;
+    padding: 0.5em;
+    width: 380px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip23 {
+    visibility: visible;
+}
+
+.tooltip .tooltip24 {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    right: 5%;
+    bottom: 120%;
+    padding: 0.5em;
+    width: 727px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip24 {
+    visibility: visible;
+}
+
+.tooltip .tooltip25{
+    z-index: 2;
+    visibility: hidden;
+    position: absolute; /*posiciona o tooltip em relação ao elemento pai (td) que deve estar com position: relative*/
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em;
+    width: 225px;
+    line-height: 1.1em;
+    color: brown;
+    box-shadow: 5px 10px brown;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: LightGrey;
+}
+
+.tooltip:hover .tooltip25 {
+    visibility: visible;
+}

@@ -1,0 +1,1978 @@
+/* determina telas com largura entre 391 a 428 px */
+@media (max-width:428px) {
+
+    .pagina {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        max-width: 413px;
+    }
+
+    #perfil {
+        width: 85px;
+        object-fit: cover;
+        object-position: -45px;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    hr {
+        margin: 1% auto 2% auto;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+        margin-bottom: 4%;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    P {
+        padding: 0 8% 0 9%;
+    }
+
+    #quadro2 {
+        display: grid;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 1% 4% 0 4%;
+    }
+
+    #imgQ2 {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgQ3A {
+        display: none;
+    }
+
+    #imgQ3B {
+        display: block;
+        width: 100%;
+    }
+
+    #caixa-texto-quadro3B {
+        width: 67px;
+        top: 193px;
+        left: 6px;
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+
+    #caixa-texto-quadro3C {
+        width: 67px;
+        top: 191px;
+        left: 90px;
+        line-height: 1.4rem;
+        font-size: 13px;
+    }
+
+    #caixa-texto-quadro3D {
+        width: 65px;
+        top: 201px;
+        left: 173px;
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+
+    #caixa-texto-quadro3E {
+        display: none;
+    }
+
+    #caixa-texto-quadro3F {
+        width: 68px;
+        top: 195px;
+        left: 254px;
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+
+    #caixa-texto-quadro3G {
+        width: 61px;
+        top: 194px;
+        left: 338px;
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+
+    #quadro4 {
+        grid-template-columns: 45% 55%;
+    }
+
+    #caixa-texto-quadro4B {
+        padding: 2% 6% 0 2%;
+        text-align: end;
+        height: 155px;
+    }
+
+    #caixa-texto-quadro4C {
+        grid-area: 3 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+        text-align: justify;
+    }
+
+    #imgQ4 {
+        grid-area: 2 / 1 / span 1 / span 1;
+        width: 109%;
+    }
+
+    #quadro5 {
+        grid-template-columns: 24% 76%;
+        grid-template-rows: auto 140px;
+    }
+
+    #caixa-texto-quadro5A {
+        grid-area: 1 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 6% 0 8%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: end;
+    }
+
+    #imgQ5 {
+        width: 120%;
+        left: 10px;
+        bottom: -3px;
+    }
+
+    #quadro6 {
+        grid-template-columns: 65% 35%;
+    }
+
+    #caixa-texto-quadro6A {
+        grid-area: 1 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+    }
+
+    #quadro9 {
+        grid-template-columns: 33% 67%;
+    }
+
+    #citacao {
+        padding: 0 8%;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 1.8rem;
+        padding: 0 6% 0 1%;
+        text-align: end;
+    }
+
+    #imgQ9 {
+        position: absolute;
+        width: 118%;
+        bottom: 0;
+        left: -7px;
+    }
+
+    #caixa-texto-quadro11B {
+        width: 81px;
+        top: 39px;
+        left: 28px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #caixa-texto-quadro11C {
+        width: 53px;
+        top: 39px;
+        left: 176px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #caixa-texto-quadro11D {
+        width: 88px;
+        top: 13px;
+        left: 299px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #caixa-texto-quadro11E {
+        width: 80px;
+        top: 420px;
+        left: 31px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 112px;
+        top: 414px;
+        left: 149px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #caixa-texto-quadro11G {
+        width: 86px;
+        top: 413px;
+        left: 300px;
+        line-height: 1.9rem;
+        font-size: 18px;
+    }
+
+    #imgQ11A {
+        display: none;
+    }
+
+    #imgQ11B {
+        display: block;
+        width: 100%;
+    }
+
+    .opcoes {
+        margin: 4% auto 0 auto;
+    }
+
+    h2 {
+        margin-bottom: 2%;
+    }
+
+    .tooltip .tooltip1 {
+        left: 13%;
+        bottom: 61%;
+        width: 285px;
+    }
+
+    .tooltip .tooltip2 {
+        left: 37%;
+        bottom: -6%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 18%;
+        bottom: 61%;
+        width: 240px;
+    }
+
+    .tooltip .tooltip4 {
+        left: 3%;
+        bottom: 39%;
+        width: 255px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 12%;
+        bottom: 8%;
+        width: 266px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 6%;
+        bottom: 57%;
+        width: 270px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 4%;
+        bottom: 29%;
+        width: 275px;
+    }
+
+    .tooltip .tooltip8 {
+        left: 4%;
+        bottom: 114%;
+        width: 373px;
+    }
+
+    .tooltip .tooltip9 {
+        top: 120%;
+        width: 125px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura de 376 a 390px */
+@media (max-width:390px) {
+
+    .pagina {
+        max-width: 384px;
+    }
+
+    #perfil {
+        width: 230%;
+        object-position: -66px;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 2% 4% 0 3%;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    hr {
+        box-shadow: 3px 4px 3px rgb(78, 95, 95);
+    }
+
+    p {
+        padding: 0 5%;
+    }
+
+    #caixa-texto-quadro3B {
+        width: 61px;
+        top: 209px;
+        left: 7px;
+        line-height: 1.4rem;
+    }
+
+    #caixa-texto-quadro3C {
+        width: 63px;
+        top: 208px;
+        left: 84px;
+        line-height: 1.3rem;
+        font-size: 13px;
+    }
+
+    #caixa-texto-quadro3D {
+        top: 213px;
+        left: 159px;
+    }
+
+    #caixa-texto-quadro3F {
+        width: 63px;
+        top: 210px;
+        left: 238px;
+        line-height: 1.4rem;
+        font-size: 12px;
+    }
+
+    #caixa-texto-quadro3G {
+        top: 219px;
+        left: 312px;
+        font-size: 12px;
+    }
+
+    #quadro4 {
+        grid-template-columns: 44% 56%;
+    }
+
+    #caixa-texto-quadro4B {
+        text-align: justify;
+    }
+
+    #imgQ4 {
+        left: -5px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 33% 67%;
+        grid-template-rows: auto 180px;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 6% 0 10%;
+    }
+
+    #imgQ5 {
+        width: 115%;
+        left: 5px;
+        bottom: -2px;
+    }
+
+    #quadro6 {
+        grid-template-columns: 66% 34%;
+    }
+
+    #imgQ6 {
+        width: 107%;
+    }
+
+    #citacao {
+        padding: 2% 5%;
+    }
+
+    #caixa-texto-quadro9B {
+        padding: 1% 3% 0 4%;
+    }
+
+    #caixa-texto-quadro9 {
+        padding: 1% 4% 0 4%;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 1% 4%;
+    }
+
+    #caixa-texto-quadro11B {
+        left: 22px;
+        top: 36px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 36px;
+        left: 166px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 9px;
+        left: 275px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 391px;
+        left: 26px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 111px;
+        top: 382px;
+        left: 136px;
+        font-size: 17px;
+    }
+
+    #caixa-texto-quadro11G {
+        width: 96px;
+        top: 392px;
+        left: 271px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 18%;
+        bottom: 59%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 32%;
+        bottom: -1%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 35%;
+        bottom: 52%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 3%;
+        bottom: 41%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 23%;
+        bottom: 12%;
+        width: 254px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 32%;
+        bottom: 59%;
+        width: 230px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 13%;
+        bottom: 32%;
+    }
+
+    .tooltip .tooltip8 {
+        bottom: 121%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip9 {
+        top: 128%;
+    }
+
+    #fonte {
+        bottom: 7px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura até 375px */
+@media (max-width:375px) {
+
+    .pagina {
+        font-size: 1.5rem;
+    }
+
+    #perfil {
+        width: 187%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 3%;
+    }
+
+    h4 {
+        margin-top: 2%;
+    }
+
+    #caixa-texto-quadro3B {
+        width: 61px;
+        top: 194px;
+        left: 7px;
+        line-height: 1.3rem;
+    }
+
+    #caixa-texto-quadro3C {
+        top: 194px;
+        left: 81px;
+        line-height: 1.2rem;
+    }
+
+    #caixa-texto-quadro3D {
+        top: 197px;
+        left: 155px;
+    }
+
+    #caixa-texto-quadro3F {
+        top: 196px;
+        left: 231px;
+        line-height: 1.3rem;
+    }
+
+    #caixa-texto-quadro3G {
+        top: 204px;
+        left: 305px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 36% 64%;
+        grid-template-rows: auto 152px;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 6% 0 0;
+    }
+
+    #imgQ5 {
+        width: 95%;
+    }
+
+    #quadro9 {
+        grid-template-columns: 36% 64%;
+    }
+
+    #imgQ9 {
+        width: 126%;
+    }
+
+    #imgQ11B {
+        width: 97%;
+        height: 667px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #caixa-texto-quadro11B {
+        width: 73px;
+        left: 30px;
+        top: 18px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 29px;
+        left: 161px;
+    }
+
+    #caixa-texto-quadro11D {
+        width: 89px;
+        top: 10px;
+        left: 262px;
+        font-size: 17px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 344px;
+        left: 29px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 104px;
+        top: 341px;
+        left: 135px;
+        font-size: 16px;
+        line-height: 1.7rem;
+    }
+
+    #caixa-texto-quadro11G {
+        top: 347px;
+        left: 261px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 13%;
+        bottom: 61%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 36%;
+        bottom: -3%;
+        width: 230px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 20%;
+        bottom: 67%;
+        width: 215px;
+    }
+
+    .tooltip .tooltip4 {
+        left: 3%;
+        bottom: 38%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 14%;
+        bottom: 8%;
+        width: 265px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 32%;
+        bottom: 60%;
+        width: 220px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 23%;
+        bottom: 34%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip8 {
+        left: 3%;
+        bottom: 127%;
+    }
+}
+
+/* determina telas com largura até 360px */
+@media (max-width:360px) {
+
+    #perfil {
+        width: 260%;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    hr {
+        border-width: 2px;
+        box-shadow: 3px 4px 4px rgb(78, 95, 95);
+    }
+
+    p {
+        padding: 0 4%;
+    }
+
+    #caixa-texto-quadro3B {
+        width: 61px;
+        top: 210px;
+        left: 7px;
+        line-height: 1.3rem;
+        font-size: 12px;
+    }
+
+    #caixa-texto-quadro3C {
+        width: 58px;
+        top: 209px;
+        left: 78px;
+        font-size: 12px;
+    }
+
+    #caixa-texto-quadro3D {
+        width: 58px;
+        top: 210px;
+        left: 151px;
+        font-size: 12px;
+    }
+
+    #caixa-texto-quadro3E {
+        width: 58px;
+        top: 210px;
+        left: 231px;
+        font-size: 12px;
+    }
+
+    #caixa-texto-quadro3F {
+        top: 210px;
+        left: 221px;
+        line-height: 1.2rem;
+        width: 62px;
+    }
+
+    #caixa-texto-quadro3G {
+        top: 217px;
+        left: 291px;
+    }
+
+    #imgQ4 {
+        width: 130%;
+        left: -38px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 39% 61%;
+        grid-template-rows: auto 170px;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 1% 4% 0 3%;
+    }
+
+    #imgQ5 {
+        bottom: 3px;
+    }
+
+    #caixa-texto-quadro6B {
+        text-align: start;
+    }
+
+    #imgQ6 {
+        width: 126%;
+        right: -10px;
+    }
+
+    #quadro9 {
+        grid-template-columns: 38% 62%;
+    }
+
+    #caixa-texto-quadro9A {
+        padding: 2% 6% 0 1%;
+    }
+
+    #imgQ11B {
+        height: 640px;
+    }
+
+    #caixa-texto-quadro11B {
+        width: 67px;
+        top: 17px;
+    }
+
+    #caixa-texto-quadro11C {
+        left: 153px;
+    }
+
+    #caixa-texto-quadro11D {
+        left: 251px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 328px;
+        left: 27px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 100px;
+        top: 328px;
+        left: 130px;
+        font-size: 16px;
+        line-height: 1.6rem;
+    }
+
+    #caixa-texto-quadro11G {
+        top: 328px;
+        left: 249px;
+        font-size: 17px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 17%;
+        bottom: 60%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 33%;
+        bottom: 8px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 3%;
+        bottom: 50%;
+    }
+
+    .tooltip .tooltip4 {
+        bottom: 41%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 15%;
+        bottom: 12%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 31%;
+        bottom: 60%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 13%;
+        bottom: 34%;
+    }
+
+    .tooltip .tooltip8 {
+        width: 333px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 415 a 428 px */
+@media (orientation: landscape) and (max-height: 428px) {
+
+    #quadro1 {
+        height: 100vh;
+    }
+
+    #perfil {
+        width: 300%;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    h4 {
+        font-size: 2.7rem;
+    }
+
+    hr {
+        margin: 2% auto;
+    }
+
+    p {
+        padding: 0 15% 0 15%;
+    }
+
+    #quadro2 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 0% 2% 0 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #imgQ2 {
+        width: 680%;
+    }
+
+    #quadro3 {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro3B {
+        top: 160px;
+    }
+
+    #caixa-texto-quadro3C {
+        top: 160px;
+    }
+
+    #caixa-texto-quadro3D {
+        top: 160px;
+    }
+
+    #caixa-texto-quadro3E {
+        top: 160px;
+    }
+
+    #caixa-texto-quadro3F {
+        top: 160px;
+    }
+
+    #caixa-texto-quadro3G {
+        top: 170px;
+    }
+
+    #imgQ3 {
+        object-fit: cover;
+        object-position: 0 0;
+    }
+
+    #quadro4 {
+        height: 100vh;
+        grid-template-columns: 32% 68%;
+        grid-template-rows: 37vh 26vh 37vh;
+    }
+
+    #caixa-texto-quadro4B {
+        text-align: end;
+        padding: 0 5% 0 8%;
+    }
+
+    #caixa-texto-quadro4C {
+        text-align: end;
+        padding: 0 5% 0 10%;
+    }
+
+    #imgQ4 {
+        width: 145%;
+    }
+
+    #quadro5 {
+        height: 100vh;
+        grid-template-columns: 32% 68%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 0 6% 0 4%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 6% 0 12%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: end;
+    }
+
+    #imgQ5 {
+        width: 124%;
+        left: 3px;
+    }
+
+    #quadro6 {
+        height: 100vh;
+        grid-auto-rows: 47vh 53vh;
+    }
+
+    #caixa-texto-quadro6A {
+        line-height: 2.7rem;
+        padding: 2% 1% 0 5%;
+    }
+
+    #caixa-texto-quadro6B {
+        line-height: 2.7rem;
+        padding: 0 2% 0 6%;
+    }
+
+    #imgQ6 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2.3rem;
+        padding: 1% 4% 1% 4%;
+    }
+
+    #imgQ7 {
+        width: 100%;
+        height: 60vh;
+    }
+
+    #quadro8 {
+        height: 100vh;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #caixa-texto-quadro8 {
+        line-height: 2.8rem;
+        padding: 0 4%;
+    }
+
+    #quadro9 {
+        height: 100vh;
+        grid-template-rows: 55vh 45vh;
+    }
+
+    #caixa-texto-quadro9A {
+        padding: 0 5% 0 4%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #imgQ9 {
+        width: 110%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #quadro10 {
+        height: 100vh;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 0 4%;
+    }
+
+    #quadro11 {
+        height: 100vh;
+    }
+
+    #imgQ11A {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro11B {
+        top: 46px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 67px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 18px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 26px;
+    }
+
+    #caixa-texto-quadro11F {
+        top: 15px;
+    }
+
+    #caixa-texto-quadro11G {
+        top: 26px;
+    }
+
+    #quadro12 {
+        height: 100vh;
+        margin: 7%;
+        padding-top: 1%;
+    }
+
+    #fonte {
+        bottom: 24vh;
+    }
+
+    #titulo {
+        display: none;
+    }
+
+    .opcoes {
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1%;
+    }
+
+    .opcao {
+        width: 90%;
+    }
+
+    .opcao-nula {
+        scale: 90%;
+    }
+
+    .tooltip .tooltip1 {
+        left: 1%;
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 44%;
+        bottom: 9%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 61%;
+        bottom: 53%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 41%;
+        bottom: 42%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 30%;
+        bottom: 15%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 57%;
+        bottom: 56%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 37%;
+        bottom: 32%;
+    }
+
+    .tooltip .tooltip8 {
+        bottom: 100%;
+    }
+
+    .tooltip .tooltip9 {
+        top: 93%;
+    }
+
+    #tela-final {
+        position: relative;
+        height: 100vh;
+    }
+
+    #mensagem-final-ca {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 391 a 414 px */
+@media (orientation: landscape) and (max-height: 414px) {
+
+    #perfil {
+        width: 300%;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.4rem;
+    }
+
+    p {
+        padding: 0 15% 0 14%;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 0 3% 0 4%;
+    }
+
+    #caixa-texto-quadro3A {
+        padding: 1% 4% 0 4%;
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro3B {
+        top: 148px;
+    }
+
+    #caixa-texto-quadro3C {
+        top: 148px;
+    }
+
+    #caixa-texto-quadro3D {
+        top: 148px;
+    }
+
+    #caixa-texto-quadro3E {
+        top: 148px;
+    }
+
+    #caixa-texto-quadro3F {
+        top: 148px;
+    }
+
+    #caixa-texto-quadro3G {
+        top: 157px;
+    }
+
+    #imgQ4 {
+        width: 140%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 0 8% 0 11%;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 8% 0 13%;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    #quadro6 {
+        grid-auto-rows: 48vh 53vh;
+    }
+
+    #caixa-texto-quadro6B {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro8 {
+        padding: 0 4%;
+    }
+
+    #quadro9 {
+        grid-template-rows: 54vh 46vh;
+    }
+
+    #imgQ9 {
+        width: 105%;
+    }
+
+    #caixa-texto-quadro11B {
+        top: 44px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 62px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 15px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 23px;
+    }
+
+    #caixa-texto-quadro11G {
+        top: 25px;
+    }
+
+    #quadro12 {
+        margin: 11%;
+    }
+
+    #titulo {
+        display: none;
+    }
+
+    .opcoes {
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1%;
+    }
+
+    .opcao {
+        width: 90%;
+    }
+
+    .opcao-nula {
+        scale: 90%;
+    }
+
+    #fonte {
+        bottom: 33vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 3%;
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 43%;
+        bottom: 7%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 52%;
+        bottom: 47%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 41%;
+        bottom: 41%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 30%;
+        bottom: 14%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 57%;
+        bottom: 56%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 19%;
+        bottom: 31%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de 376 a 390px */
+@media (orientation: landscape) and (max-height: 390px) {
+
+    #perfil {
+        width: 285%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 4% 0 2%;
+        line-height: 2.3rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    hr {
+        margin: 1% auto;
+    }
+
+    #caixa-texto-quadro2A {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 2rem;
+    }
+
+    #caixa-texto-quadro3B {
+        font-size: 16px;
+        top: 143px;
+        left: 17px;
+    }
+
+    #caixa-texto-quadro3C {
+        font-size: 16px;
+        line-height: 1.9rem;
+        top: 137px;
+        left: 149px;
+        width: 103px;
+    }
+
+    #caixa-texto-quadro3D {
+        font-size: 16px;
+        line-height: 1.9rem;
+        top: 138px;
+        left: 285px;
+        width: 95px;
+    }
+
+    #caixa-texto-quadro3E {
+        font-size: 16px;
+        line-height: 1.9rem;
+        top: 137px;
+        left: 416px;
+        width: 95px;
+    }
+
+    #caixa-texto-quadro3F {
+        font-size: 16px;
+        line-height: 1.9rem;
+        top: 138px;
+        left: 549px;
+        width: 95px;
+    }
+
+    #caixa-texto-quadro3G {
+        font-size: 16px;
+        line-height: 1.9rem;
+        top: 147px;
+        left: 682px;
+        width: 94px;
+    }
+
+    #imgQ3A {
+        height: 96%;
+    }
+
+    #caixa-texto-quadro4A {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.5rem;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.5rem;
+    }
+
+    #imgQ4 {
+        width: 132%;
+    }
+
+    #quadro5 {
+        grid-template-rows: 43vh 57vh;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 6% 6% 0 4%;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 4% 8% 0 13%;
+    }
+
+    #imgQ5 {
+        width: 120%;
+        left: 3px;
+    }
+
+    #quadro6 {
+        grid-template-rows: 47vh 54vh;
+    }
+
+    #caixa-texto-quadro6A {
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro6B {
+        line-height: 2.4rem;
+    }
+
+    #imgQ6 {
+        width: auto;
+        left: 11px;
+    }
+
+    #citacao {
+        padding: 0 11%;
+    }
+
+    #quadro9 {
+        grid-template-rows: 54vh 56vh;
+    }
+
+    #caixa-texto-quadro9A {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro9B {
+        line-height: 2.6rem;
+    }
+
+    #imgQ9 {
+        width: 95%;
+    }
+
+    #caixa-texto-quadro10 {
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro11B {
+        top: 39px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 58px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 8px;
+    }
+
+    #caixa-texto-quadro11E {
+        top: 16px;
+    }
+
+    #caixa-texto-quadro11F {
+        top: 8px;
+    }
+
+    #caixa-texto-quadro11G {
+        top: 18px;
+    }
+
+    #quadro12 {
+        margin: 13%;
+    }
+
+    #fonte {
+        bottom: 39vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 1%;
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 43%;
+        bottom: 5%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 61%;
+        bottom: 48%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 42%;
+        bottom: 41%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 30%;
+        bottom: 11%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 57%;
+        bottom: 55%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 19%;
+        bottom: 29%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de até 375 px */
+@media (orientation: landscape) and (max-height: 375px) {
+
+    .pagina {
+        max-width: 667px;
+        font-size: 1.8rem;
+    }
+
+    #perfil {
+        width: 279%;
+        object-fit: cover;
+    }
+
+    h4 {
+        font-size: 2.4rem;
+    }
+
+    #caixa-texto-quadro1 {
+        line-height: 2.2rem;
+        padding: 0 3% 0 3%;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 2.2rem;
+    }
+
+    #imgQ2 {
+        width: 759%;
+    }
+
+    #caixa-texto-quadro3A {
+        line-height: 1.9rem;
+        height: 38vh;
+    }
+
+    #caixa-texto-quadro3B {
+        line-height: 1.9rem;
+        font-size: 14px;
+        top: 153px;
+        left: 11px;
+        width: 88px;
+    }
+
+    #caixa-texto-quadro3C {
+        line-height: 1.7rem;
+        font-size: 14px;
+        top: 151px;
+        left: 121px;
+        width: 90px;
+    }
+
+    #caixa-texto-quadro3D {
+        line-height: 1.7rem;
+        font-size: 15px;
+        top: 150px;
+        left: 232px;
+        width: 89px;
+    }
+
+    #caixa-texto-quadro3E {
+        line-height: 1.7rem;
+        font-size: 15px;
+        top: 150px;
+        left: 343px;
+        width: 89px;
+    }
+
+    #caixa-texto-quadro3F {
+        line-height: 1.7rem;
+        font-size: 15px;
+        top: 149px;
+        left: 455px;
+        width: 88px;
+    }
+
+    #caixa-texto-quadro3G {
+        line-height: 1.7rem;
+        font-size: 15px;
+        top: 158px;
+        left: 564px;
+        width: 88px;
+    }
+
+    #imgQ3A {
+        height: 88vh;
+    }
+
+    #quadro4 {
+        grid-template-columns: 25% 75%;
+    }
+
+    #caixa-texto-quadro4C {
+        padding: 0 5% 0 12%;
+    }
+
+    #imgQ4 {
+        width: 190%;
+        object-position: -53px;
+    }
+
+    #quadro5 {
+        grid-template-columns: 41% 59%;
+        grid-template-rows: 50vh 50vh;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 3% 6% 0 4%;
+    }
+
+    #imgQ5 {
+        width: 100%;
+    }
+
+    #quadro6 {
+        grid-template-columns: 75% 25%;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 1% 0 0 4%;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 2% 0 4%;
+    }
+
+    #imgQ6 {
+        left: -8px;
+    }
+
+    #caixa-texto-quadro8 {
+        line-height: 2.4rem;
+    }
+
+    #citacao {
+        padding: 0 8%;
+    }
+
+    #imgQ9 {
+        width: 110%;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 0 3% 0 4%;
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro11B {
+        top: 37px;
+        left: 10px;
+    }
+
+    #caixa-texto-quadro11C {
+        width: 74px;
+        top: 37px;
+        left: 128px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 15px;
+        width: 89px;
+        left: 235px;
+        font-size: 17px;
+    }
+
+    #caixa-texto-quadro11E {
+        left: 351px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 94px;
+        top: 12px;
+        left: 458px;
+        line-height: 1.8rem;
+        font-size: 15px;
+    }
+
+    #caixa-texto-quadro11G {
+        left: 566px;
+        font-size: 17px;
+    }
+
+    #imgQ11A {
+        width: 101%;
+    }
+
+    #quadro12 {
+        margin: 7%;
+    }
+
+    #fonte {
+        bottom: 23vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 2%;
+        bottom: 47%;
+        width: 317px;
+    }
+
+    .tooltip .tooltip2 {
+        left: 40%;
+        bottom: 8%;
+        width: 384px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 52%;
+        bottom: 51%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 32%;
+        bottom: 45%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 3%;
+        bottom: 14%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 6%;
+        bottom: 48%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 4%;
+        bottom: 24%;
+        width: 310px;
+    }
+
+    .tooltip .tooltip8 {
+        right: 3%;
+        width: 635px;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de até 360 px */
+@media (orientation: landscape) and (max-height: 360px) {
+    
+    .pagina {
+        max-width: 640px;
+    }
+
+    #perfil {
+        width: 257%;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 2.1rem;
+    }
+
+    #imgQ2 {
+        width: 817%;
+    }
+
+    #caixa-texto-quadro3A {
+        height: 39vh;
+    }
+
+    #caixa-texto-quadro3B {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 153px;
+        left: 9px;
+        width: 88px;
+    }
+
+    #caixa-texto-quadro3C {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 147px;
+        left: 114px;
+        width: 90px;
+    }
+
+    #caixa-texto-quadro3D {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 146px;
+        left: 224px;
+        width: 83px;
+    }
+
+    #caixa-texto-quadro3E {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 146px;
+        left: 333px;
+        width: 76px;
+    }
+
+    #caixa-texto-quadro3F {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 147px;
+        left: 436px;
+        width: 83px;
+    }
+
+    #caixa-texto-quadro3G {
+        line-height: 1.6rem;
+        font-size: 14px;
+        top: 154px;
+        left: 544px;
+        width: 82px;
+    }
+
+    #imgQ3 {
+        height: 61vh;
+    }
+
+    #quadro4 {
+        grid-template-rows: 38vh 26vh 36vh;
+    }
+
+    #caixa-texto-quadro4B {
+        line-height: 2.3rem;
+        padding: 0 5% 0 6%;
+    }
+
+    #caixa-texto-quadro4C {
+        line-height: 2.3rem;
+        padding: 0 5% 0 9%;
+    }
+
+    #imgQ4 {
+        object-position: -64px;
+    }
+
+    #caixa-texto-quadro5A {
+        line-height: 2.3rem;
+        padding: 1% 6% 0 4%;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 2% 8% 0 12%;
+    }
+
+    #quadro6 {
+        grid-template-columns: 77% 23%;
+        grid-template-rows: 50vh 50vh;
+    }
+
+    #caixa-texto-quadro6A {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro6B {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro8 {
+        line-height: 2.2rem;
+    }
+
+    #citacao {
+        padding: 1% 6%;
+    }
+
+    #quadro9 {
+        grid-template-rows: 52vh 58vh;
+    }
+
+    #imgQ9 {
+        width: 109%;
+    }
+
+    #caixa-texto-quadro10 {
+        padding: 0 4% 0 4%;
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro11B {
+        width: 86px;
+        top: 34px;
+        left: 9px;
+        font-size: 17px;
+    }
+
+    #caixa-texto-quadro11C {
+        top: 35px;
+        left: 125px;
+    }
+
+    #caixa-texto-quadro11D {
+        top: 14px;
+        left: 224px;
+        font-size: 16px;
+    }
+
+    #caixa-texto-quadro11E {
+        left: 336px;
+        top: 14px;
+        font-size: 17px;
+    }
+
+    #caixa-texto-quadro11F {
+        width: 92px;
+        top: 13px;
+        left: 437px;
+        line-height: 1.7rem;
+        font-size: 14px;
+    }
+
+    #caixa-texto-quadro11G {
+        left: 541px;
+        top: 14px;
+        font-size: 16px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 3%;
+        bottom: 46%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 37%;
+        bottom: 5%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 53%;
+        bottom: 50%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 36%;
+        bottom: 45%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 28%;
+        bottom: 14%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 23%;
+        bottom: 50%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 32%;
+        bottom: 26%;
+    }
+
+    .tooltip .tooltip8 {
+        right: 3%;
+        width: 605px;
+    }
+}

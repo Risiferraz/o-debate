@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        /* Estilização do corpo da página */
+        body {
+            background-image: url("../imagens-debate/pano-de-fundo.jpg");
+            background-size: cover;
+            color: #000000; /* Texto preto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contêiner do spinner */
+        .spinner {
+            width: 50px; /* Largura do spinner */
+            height: 50px; /* Altura do spinner */
+            border: 6px solid #000000; /* Borda preta */
+            border-top: 6px solid #ffffff; /* Borda superior branca (efeito de movimento) */
+            border-radius: 50%; /* Forma circular */
+            animation: spin 1s linear infinite; /* Animação de rotação */
+        }
+
+        /* Animação do spinner */
+        @keyframes spin {
+            from {
+                transform: rotate(0deg); /* Posição inicial */
+            }
+            to {
+                transform: rotate(360deg); /* Rotação completa */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Div que representa o spinner -->
+    <div class="spinner"></div>
+    <button id="sair-salvar-ja">Ok</button>
+    <script defer src="/script-compartilhado/GerenciadorDeLinks.js"></script>
+    <script defer src="/script-compartilhado/loading.js"></script>
+</body>
+</html>

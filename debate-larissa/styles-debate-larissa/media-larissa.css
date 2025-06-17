@@ -1,0 +1,1342 @@
+/* determina telas com largura entre 391 a 428 px */
+@media (max-width:428px) {
+
+    .pagina {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        max-width: 414px;
+    }
+
+    #perfil {
+        width: 134px;
+        object-fit: cover;
+        object-position: -81px;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+    }
+
+    hr {
+        border-width: 2px;
+        margin: 1% 0% 4% 0%;
+        box-shadow: 3px 4px 3px rgb(78, 95, 95);
+    }
+
+    #quadro2 {
+        position: relative;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 1% 3% 0 3%;
+    }
+
+    #imgQ2 {
+        object-position: -122px;
+    }
+
+    #quadro3 {
+        position: relative;
+    }
+
+    #quadro4-5 {
+        grid-template-columns: 43% 57%;
+        height: auto;
+    }
+
+    #caixa-texto-quadro4-5 {
+        padding: 2% 6% 0 0;
+    }
+
+    #imgQ4-5 {
+        width: 168%;
+        opacity: 30%;
+    }
+
+    #quadro5 {
+        grid-template-columns: 64% 36%;
+        margin-top: 2%;
+    }
+
+    #caixa-texto-quadro5A {
+        grid-area: 1 / 1;
+        padding: 1% 3% 0 6%;
+    }
+
+    #caixa-texto-quadro5B {
+        grid-area: 2 / 1 / span 1 / span 2;
+        padding: 1% 4% 0 4%;
+    }
+
+    #imgQ5 {
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
+
+    #quadro6 {
+        grid-template-columns: 74% 26%;
+    }
+
+    #caixa-texto-quadro6A {
+        grid-area: 1 / 1 / span 1 / span 1;
+        padding: 1% 7% 0 5%;
+    }
+
+    #caixa-texto-quadro6B {
+        grid-area: 2 / 1 / span 1 / span 2;
+        padding: 0 3% 0 3%;
+    }
+
+    #imgQ6 {
+        grid-area: 1 / 2 / span 1 / span 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 112%;
+    }
+
+    h2 {
+        font-size: 2.9rem;
+        margin: 0 0 4% 4%;
+    }
+
+    #fonte {
+        height: 30px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 2%;
+        bottom: 63%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip2 {
+        left: 6%;
+        bottom: 63%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 14%;
+        bottom: 62%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip4 {
+        left: 8%;
+        bottom: 63%;
+        width: 340px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 13%;
+        bottom: 25%;
+        width: 300px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 3%;
+        bottom: 59%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 3%;
+        bottom: 90%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip8 {
+        left: 3%;
+        bottom: 46%;
+        width: 264px;
+    }
+
+    .tooltip .tooltip9 {
+        left: 37%;
+        bottom: 7%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip10 {
+        left: 2%;
+        bottom: 30%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip11 {
+        left: 18%;
+        bottom: 10%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip12 {
+        left: 30%;
+        bottom: 65%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip13 {
+        left: 2%;
+        bottom: 56%;
+        width: 285px;
+    }
+
+    .tooltip .tooltip14 {
+        left: 9%;
+        bottom: 45%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip15 {
+        right: 5%;
+        bottom: 120%;
+        width: 367px;
+    }
+    
+    .tooltip .tooltip16 {
+        top: 126%;
+        width: 108px;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura de 376 a 390px */
+@media (max-width:390px) {
+
+    .pagina {
+        max-width: 384px;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    hr {
+        margin-bottom: 3%;
+    }
+
+    #perfil {
+        width: 112px;
+        object-position: -95px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 4%;
+        margin-left: 7%;
+    }
+
+    #imgQ2 {
+        width: 547%;
+    }
+
+    #quadro5 {
+        grid-template-columns: 61% 39%;
+    }
+
+    #imgQ5 {
+        height: 100%;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 3% 7% 0 5%;
+    }
+
+    #fonte {
+        padding: 0% 4%;
+    }
+
+    .tooltip .tooltip1 {
+        left: 3%;
+        bottom: 67%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 3%;
+        bottom: 67%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 15%;
+        bottom: 64%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 6%;
+        bottom: 65%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 7%;
+        bottom: 67%;
+        width: 320px;
+    }
+
+    .tooltip .tooltip6 {
+        bottom: 63%;
+        width: 215px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 4%;
+        bottom: -28%;
+    }
+
+    .tooltip .tooltip8 {
+        left: 4%;
+        bottom: 54%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 2%;
+        bottom: 41%;
+    }
+
+    .tooltip .tooltip10 {
+        left: 15%;
+        bottom: 30%;
+    }
+
+    .tooltip .tooltip11 {
+        left: 2%;
+        bottom: 8%;
+    }
+
+    .tooltip .tooltip12 {
+        left: 26%;
+        bottom: 67%;
+    }
+
+    .tooltip .tooltip13 {
+        left: 13%;
+        bottom: 58%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 16%;
+        bottom: 42%;
+    }
+
+    .tooltip .tooltip15 {
+        right: 5%;
+        bottom: 131%;
+        width: 346px;
+    }
+
+    .tooltip .tooltip16 {
+        top: 136%;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas com largura até 375px */
+@media (max-width:375px) {
+
+    .pagina {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    #perfil {
+        width: 135px;
+        object-fit: cover;
+        object-position: -58px;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        margin-left: 3%;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 1% 3%;
+    }
+
+    #imgQ2 {
+        object-position: -110px;
+    }
+
+    #caixa-texto-quadro4 {
+        padding: 2% 3%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 1% 2% 0 7%;
+    }
+
+    #imgQ5 {
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 1% 3% 0 3%;
+    }
+
+    #fonte {
+        padding: 0% 4%;
+        height: 25px;
+    }
+
+    .tooltip .tooltip1 {
+        left: 2%;
+        bottom: 68%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 2%;
+        bottom: 68%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 2%;
+        bottom: 56%;
+        width: 220px;
+    }
+
+    .tooltip .tooltip4 {
+        left: 12%;
+        bottom: 61%;
+        width: 280px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 16%;
+        bottom: 28%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 6%;
+        bottom: 59%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 3%;
+        bottom: -14%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip8 {
+        left: 3%;
+        bottom: 53%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 31%;
+        bottom: 8%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip10 {
+        left: 3%;
+        bottom: -12%;
+    }
+
+    .tooltip .tooltip11 {
+        left: 15%;
+        bottom: 10%;
+        width: 250px;
+    }
+
+    .tooltip .tooltip12 {
+        left: 24%;
+        bottom: 71%;
+    }
+
+    .tooltip .tooltip13 {
+        left: 3%;
+        bottom: 57%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 25%;
+        bottom: 46%;
+    }
+
+    .tooltip .tooltip15 {
+        left: 5%;
+        bottom: 141%;
+        width: 335px;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas com largura até 360px */
+@media (max-width:360px) {
+
+    .pagina {
+        font-size: 1.34rem;
+        line-height: 1.4rem;
+        max-width: 640px;
+    }
+
+    h3 {
+        font-size: 1.34rem;
+    }
+
+    #perfil {
+        width: 128px;
+        object-position: -53px;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 2% 3% 0 3%;
+    }
+
+    #imgQ2 {
+        width: 566%;
+        object-position: -93px;
+    }
+
+    #caixa-texto-quadro3 {
+        padding: 2% 3% 0 3%;
+    }
+
+    #quadro5 {
+        grid-template-columns: 71% 29%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 2% 6% 0 7%;
+    }
+
+    #imgQ5 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #imgQ6 {
+        width: 96%;
+    }
+
+    .tooltip .tooltip1 {
+        bottom: 65%;
+    }
+
+    .tooltip .tooltip2 {
+        bottom: 65%;
+    }
+
+    .tooltip .tooltip3 {
+        bottom: 51%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 11%;
+        bottom: 58%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 18%;
+        bottom: 25%;
+    }
+
+    .tooltip .tooltip6 {
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 3%;
+        bottom: -21%;
+    }
+
+    .tooltip .tooltip8 {
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 28%;
+        bottom: 4%;
+    }
+
+    .tooltip .tooltip10 {
+        left: 28%;
+        bottom: -2%;
+    }
+
+    .tooltip .tooltip11 {
+        left: 9%;
+        bottom: 11%;
+    }
+
+    .tooltip .tooltip12 {
+        left: 21%;
+        bottom: 66%;
+    }
+
+    .tooltip .tooltip13 {
+        left: 18%;
+        bottom: 11%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 2%;
+        bottom: 42%;
+    }
+
+    .tooltip .tooltip15 {
+        left: 3%;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em landscape com altura entre 415 a 428 px */
+@media (orientation: landscape) and (max-height: 428px) {
+
+    .pagina {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        margin: 0 auto;
+        max-width: 790px;
+    }
+
+    h2 {
+        font-size: 4rem;
+        line-height: 0.5em;
+        margin-left: 2%;
+        padding-top: 2%;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    #perfil {
+        width: 417%;
+    }
+
+    #quadro1 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 3%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    h4 {
+        font-size: 2.6rem;
+        margin: 3% auto 0 auto;
+    }
+
+    hr {
+        margin-bottom: 5%;
+    }
+
+    #quadro2 {
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro2 {
+        padding: 0 3%;
+        line-height: 2.3rem;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    #imgQ2 {
+        width: 537%;
+    }
+
+    #quadro3 {
+        height: 100vh;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #caixa-texto-quadro3 {
+        padding: 0 4%;
+        line-height: 2.6rem;
+    }
+
+    #quadro4 {
+        height: 100vh;
+        display: flex
+    }
+
+    #caixa-texto-quadro4 {
+        padding: 0 4%;
+        line-height: 2.4rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #imgQ4 {
+        height: 100vh;
+    }
+
+    #quadro4-5 {
+        grid-template-columns: 38% 62%;
+        height: 100vh;
+    }
+
+    #caixa-texto-quadro4-5 {
+        padding: 0 7% 0 0;
+    }
+
+    #imgQ4-5 {
+        width: 140%;
+    }
+
+    #quadro5 {
+        height: 100vh;
+        grid-template-rows: 60vh 40vh;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 3% 4% 0 4%;
+        line-height: 2.6rem;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 4%;
+        line-height: 2.6rem;
+    }
+
+    #imgQ5 {
+        height: 100vh;
+    }
+
+    #quadro6 {
+        height: 100vh;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 45vh 55vh;
+    }
+
+    #caixa-texto-quadro6A {
+        grid-area: 1 / 1 / span 1 / span 1;
+        padding: 4% 10% 0 7%;
+        line-height: 2.8rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #caixa-texto-quadro6B {
+        grid-area: 2 / 1 / span 1 / span 1;
+        line-height: 2.8rem;
+        padding: 1% 5% 0 7%;
+    }
+
+    #imgQ6 {
+        grid-area: 2 / 2 / span 1 / span 1;
+        position: absolute;
+        width: 115%;
+        bottom: 0;
+        right: 0;
+    }
+
+    #quadro7 {
+        height: 100vh;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #caixa-texto-quadro7 {
+        padding: 0 4%;
+        line-height: 3rem;
+    }
+
+    #quadro8 {
+        margin: 4%;
+        height: 100vh;
+        padding-top: 1%;
+    }
+
+    .opcoes {
+        height: 100vh;
+        padding-top: 2%;
+    }
+
+    .opcao {
+        width: 90%;
+    }
+
+    .opcao-nula {
+        width: 90%;
+    }
+
+    #titulo {
+        display: none;
+    }
+
+    #fonte {
+        bottom: 18vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 28%;
+        bottom: 59%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip2 {
+        left: 2%;
+        bottom: 54%;
+        width: 260px;
+    }
+
+    .tooltip .tooltip3 {
+        left: 11%;
+        bottom: 56%;
+        width: 375px;
+    }
+
+    .tooltip .tooltip4 {
+        left: 24%;
+        bottom: 42%;
+        width: 375px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 41%;
+        bottom: 17%;
+        width: 375px;
+    }
+
+    .tooltip .tooltip6 {
+        left: 23%;
+        bottom: 41%;
+        width: 280px;
+    }
+
+    .tooltip .tooltip7 {
+        left: 3%;
+        bottom: 88%;
+        width: 335px;
+    }
+
+    .tooltip .tooltip8 {
+        left: 5%;
+        bottom: 58%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 27%;
+        bottom: 22%;
+        width: 310px;
+    }
+
+    .tooltip .tooltip10 {
+        left: 4%;
+        bottom: 35%;
+        width: 300px;
+    }
+
+    .tooltip .tooltip11 {
+        left: 12%;
+        bottom: 15%;
+    }
+
+    .tooltip .tooltip12 {
+        left: 13%;
+        bottom: 65%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 35%;
+        bottom: 47%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip15 {
+        bottom: 100%;
+        width: 575px;
+    }
+    
+    .tooltip .tooltip16 {
+        top: 95%;
+    }
+}
+
+/* ________________________________________&&&&&&&&&&&&___________________________________ */
+/* determina telas em LANDSCAPE com altura entre 391 a 415 px */
+@media (orientation: landscape) and (max-height: 415px) {
+
+    hr {
+        margin-bottom: 3%;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 2.2rem;
+    }
+
+    #quadro8 {
+        margin: 6%;
+    }
+
+    #fonte {
+        bottom: 22vh;
+    }
+
+    .tooltip .tooltip1 {
+        bottom: 58%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 3%;
+        bottom: 52%;
+    }
+
+    .tooltip .tooltip6 {
+        bottom: 38%;
+    }
+
+    .tooltip .tooltip8 {
+        bottom: 56%;
+    }
+
+    .tooltip .tooltip9 {
+        bottom: 21%;
+    }
+
+    .tooltip .tooltip11 {
+        bottom: 14%;
+    }
+
+    .opcoes {
+        padding-top: 1%;
+    }
+}
+
+/* determina telas em LANDSCAPE com altura de 376 a 390px */
+@media (orientation: landscape) and (max-height: 390px) {
+
+    #perfil {
+        width: 320%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 4% 0 3%;
+        line-height: 2.5rem;
+    }
+
+    h4 {
+        margin: 2% auto 0 auto;
+        font-size: 2.8rem;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro4 {
+        line-height: 2.3rem;
+    }
+
+    #imgQ4-5 {
+        width: 130%;
+    }
+
+    #quadro5 {
+        grid-template-rows: 58vh 42vh;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 1% 4% 0 4%;
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.4rem;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 2% 10% 0 7%;
+        line-height: 2.7rem;
+    }
+
+    #caixa-texto-quadro6B {
+        line-height: 2.7rem;
+    }
+
+    #quadro8 {
+        margin: 9%;
+    }
+
+    #fonte {
+        bottom: 30vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 28%;
+        bottom: 57%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 3%;
+        bottom: 51%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 24%;
+        bottom: 40%;
+    }
+
+    .tooltip .tooltip5 {
+        bottom: 14%;
+    }
+
+    .tooltip .tooltip9 {
+        bottom: 18%;
+    }
+
+    .tooltip .tooltip10 {
+        left: 4%;
+        bottom: 34%;
+    }
+
+    .tooltip .tooltip11 {
+        bottom: 13%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em landscape com altura de até 375 px */
+@media (orientation: landscape) and (max-height: 375px) {
+
+    .pagina {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        max-width: 667px;
+    }
+
+    #quadro1 {
+        height: 100vh;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 2.5rem;
+        margin: 2% auto 2% auto;
+    }
+
+    #perfil {
+        width: 272%;
+        object-fit: cover;
+    }
+
+    #caixa-texto-quadro1 {
+        font-size: 1.85rem;
+        padding: 0 4% 0 2%;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 1.95rem;
+        padding: 0 2% 0 3%;
+    }
+
+    #imgQ2 {
+        width: 596%;
+    }
+
+    #quadro3 {
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro3 {
+        line-height: 2.4rem;
+        padding: 0 3% 0 4%;
+    }
+
+    #caixa-texto-quadro4 {
+        line-height: 2rem;
+        padding: 0 3% 0 4%;
+    }
+
+    #quadro4-5 {
+        grid-template-columns: 53% 47%;
+    }
+
+    #imgQ4-5 {
+        width: 100%;
+    }
+
+    #quadro5 {
+        grid-template-rows: 62vh 38vh;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 2% 4% 0 4%;
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro5B {
+        padding: 0 4%;
+        line-height: 2.2rem;
+    }
+
+    #quadro6 {
+        grid-template-columns: 66% 34%;
+        grid-template-rows: 47vh 53vh;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 2% 10% 0 7%;
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0% 6% 0 7%;
+        line-height: 2.3rem;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2.6rem;
+        padding: 0 6%;
+    }
+
+    #quadro8 {
+        margin: 3%;
+    }
+
+    .opcoes {
+        height: 100vh;
+    }
+
+    .opcoes {
+        height: 100vh;
+    }
+
+    #fonte {
+        bottom: 15vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 3%;
+        bottom: 55%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 19%;
+        bottom: 55%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 12%;
+        bottom: 62%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 24%;
+        bottom: 47%;
+        width: 350px;
+    }
+
+    .tooltip .tooltip5 {
+        left: 4%;
+        bottom: 18%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 20%;
+        bottom: 44%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 2%;
+        bottom: 90%;
+    }
+
+    .tooltip .tooltip8 {
+        left: 4%;
+        bottom: 59%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 4%;
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip10 {
+        left: 12%;
+        bottom: 36%;
+    }
+
+    .tooltip .tooltip11 {
+        left: 2%;
+        bottom: 12%;
+    }
+
+    .tooltip .tooltip12 {
+        left: 28%;
+        bottom: 67%;
+    }
+
+    .tooltip .tooltip13 {
+        left: 40%;
+        bottom: 60%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 13%;
+        bottom: 44%;
+    }
+}
+
+/* _____________________________________&&&&&&&&&&&&______________________________________ */
+/* determina telas em LANDSCAPE com altura de até 360 px */
+@media (orientation: landscape) and (max-height: 360px) {
+
+    .pagina {
+        font-size: 1.7rem;
+        max-width: 640px;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    h4 {
+        font-size: 2.5rem;
+        margin-bottom: 3%;
+        margin-left: 1%;
+    }
+
+    hr {
+        border-width: 3px;
+        margin-bottom: 2%;
+        box-shadow: 3px 3px 3px rgb(78, 95, 95);
+    }
+
+    #perfil {
+        width: 253%;
+    }
+
+    #caixa-texto-quadro1 {
+        padding: 0 3% 0 2%;
+    }
+
+    #caixa-texto-quadro2 {
+        line-height: 1.9rem;
+    }
+
+    #imgQ2 {
+        width: 627%;
+    }
+
+    #caixa-texto-quadro3 {
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro4 {
+        line-height: 2rem;
+        padding: 0 5%;
+    }
+
+    #caixa-texto-quadro5A {
+        padding: 2% 4% 0 4%;
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro5B {
+        line-height: 2.1rem;
+    }
+
+    #caixa-texto-quadro6A {
+        padding: 2% 10% 0 6%;
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro6B {
+        padding: 0 8% 0 6%;
+        line-height: 2.2rem;
+    }
+
+    #caixa-texto-quadro7 {
+        line-height: 2.4rem;
+        padding: 0 6%;
+    }
+
+    .opcoes {
+        height: 100vh;
+    }
+
+    #fonte {
+        bottom: 17vh;
+    }
+
+    .tooltip .tooltip1 {
+        left: 2%;
+        bottom: 55%;
+    }
+
+    .tooltip .tooltip2 {
+        left: 3%;
+        bottom: 55%;
+    }
+
+    .tooltip .tooltip3 {
+        left: 4%;
+        bottom: 56%;
+    }
+
+    .tooltip .tooltip4 {
+        left: 24%;
+        bottom: 50%;
+    }
+
+    .tooltip .tooltip5 {
+        left: 5%;
+        bottom: 20%;
+    }
+
+    .tooltip .tooltip6 {
+        left: 17%;
+        bottom: 45%;
+    }
+
+    .tooltip .tooltip7 {
+        left: 2%;
+        bottom: 91%;
+    }
+
+    .tooltip .tooltip8 {
+        left: 4%;
+        bottom: 59%;
+    }
+
+    .tooltip .tooltip9 {
+        left: 3%;
+        bottom: 49%;
+    }
+
+    .tooltip .tooltip10 {
+        left: 11%;
+        bottom: 37%;
+    }
+
+    .tooltip .tooltip12 {
+        left: 29%;
+        bottom: 66%;
+    }
+
+    .tooltip .tooltip13 {
+        left: 38%;
+        bottom: 60%;
+    }
+
+    .tooltip .tooltip14 {
+        left: 33%;
+        bottom: 44%;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>O Debate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles-debate/style-debate.css" />
+    <link rel="stylesheet" type="text/css" href="/styles-debate/media-debate.css" />
+</head>
+
+<body>
+    <div id="pagina">
+        <div id="pagina-inicial">
+            <div id="quadro1">
+                <img id="perfil" src="\imagens-debate\perfil-professor.jpg">
+                <div id="caixa-texto-quadro1">
+                    Muito bem! Agora iniciaremos o debate em si. Tendo por base o tema:
+                    <h4>EVOLUCIONISMO X CRIACIONISMO</h4>
+                    <hr id="titulo">
+                    Cada um de vocês deverá opinar sobre a linha de pensamento (criacionismo
+                    ou evolucionismo) com a qual você mais se identifica, embasando seus
+                    argumentos no conteúdo dado em sala de aula, e também em suas pesquisas
+                    particulares. Depois, você deverá contra-argumentar cada colocação feita
+                    por seus colegas, quer concordando ou quer discordando. Clique, abaixo,
+                    na opção de sua escolha para ter acesso ao conteúdo postado por seus
+                    colegas.
+                </div>
+            </div>
+            <div id="quadro2">
+                <hr>
+                <h2>ESCOLHA UMA DAS OPÇÕES RESTANTES ABAIXO</h2>
+                <hr>
+            </div>
+        </div>
+        <div id="quadro3">
+            <table class="opcoes">
+                <tr>
+                    <td><a href="/debate-larissa/index-debate-larissa.html" id="larissa" class="opcao-link" rel="next">
+                            <img class="opcao" src="/imagens-debate/perfil-da-larissa.png"></a>
+                        <div class="opcao-nula" id="larissa-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-da-larissa.png"></div>
+                    </td>
+                    <td><a href="/debate-bia/index-debate-bia.html" id="bia" class="opcao-link" rel="next">
+                            <img class="opcao" src="/imagens-debate/perfil-da-bia.png"></a>
+                        <div class="opcao-nula" id="bia-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-da-bia.png"></div>
+                    </td>
+                    <td><a href="/debate-maura/index-debate-maura.html" id="maura" class="opcao-link" rel="next">
+                            <img class="opcao" src="/imagens-debate/perfil-da-maura.png"></a>
+                        <div class="opcao-nula" id="maura-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-da-maura.png"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/debate-andre/index-debate-andre.html" id="andre" class="opcao-link" rel="next">
+                            <img class="opcao" src="/imagens-debate/perfil-do-andre.png"></a>
+                        <div class="opcao-nula" id="andre-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-do-andre.png"></div>
+                    </td>
+                    <td><a href="/debate-enio/index-debate-enio.html" id="enio" class="opcao-link" rel="next">
+                            <img class="opcao" src="/imagens-debate/perfil-do-enio.png"></a>
+                        <div class="opcao-nula" id="enio-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-do-enio.png"></div>
+                    </td>
+                    <td><a href="/debate-fred/index-debate-fred.html" id="fred" class="opcao-link" rel="next">
+                            <img class="opcao" src="\imagens-debate\perfil-do-fred.png"></a>
+                        <div class="opcao-nula" id="fred-opcao-nula"><img class="opcao" src="/imagens-debate/perfil-do-fred.png"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="pagina-final">
+            <img id="mensagem-final" src="/imagens-debate/mensagem-final.png">
+            <button id="sair-salvar-final" onclick="clicarSair()">SALVAR E SAIR</button>
+            <button id="proxima-fase">PRÓXIMA FASE</button>
+        </div>
+    </div>
+    <button id="limpa-tudo">LIMPA TUDO</button>
+    <script defer src="/scripts-debate/script-debate.js"></script>
+    <script defer src="/script-compartilhado/botao-sair.js"></script>
+    <script defer src="/script-compartilhado/GerenciadorDeSave.js"></script>
+    <script defer src="/script-compartilhado/limpa-tudo.js"></script>
+    <!-- defer = carregar script depois do carregamento do css -->
+</body>
+
+</html>

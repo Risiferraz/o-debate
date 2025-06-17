@@ -1,0 +1,1 @@
+const gerenciadorDeLinks = new GerenciadorDeLinks()
