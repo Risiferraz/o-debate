@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // Abaixo link FINAL que leva de volta a escolha dos "DEBATES"
 document.getElementById("link").addEventListener("click", () => {
-  window.location.href = "../index-debate.html";
+  window.location.href = "../index.html";
 })
 // document.getElementById("link").addEventListener("click", () => {
 //   // window.location.assign('https://www.google.com');
